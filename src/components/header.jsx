@@ -1,17 +1,15 @@
-import React from 'react';
-import './Header.css';
+import React from 'react'
+import logo from '../images/iconheader.svg';
 
-const Header = () => {
-  return (
-    <header className='header'>
-      <nav>
-        <ul>
-          <li className='page-title'>home</li>
-          <li className='top-tweets'></li>
-        </ul>
-      </nav>
-    </header>
-  );
-};
 
-export default Header;
+
+function header() {
+    return (
+        <div className='header'>
+            <h1 className='page-title'>Home</h1>
+            <img className='top-tweets' src={logo} alt='' />
+        </div>
+    )
+}
+
+export default header
