@@ -3,6 +3,8 @@ import React from 'react'
 import Header from '../components/header';
 import TweetEditor from '../components/TweetEditor';
 import Tweets from '../components/tweets';
+import TweetContent from '../components/TweetContent.jsx';
+
 
 function home() {
   return (
@@ -10,6 +12,8 @@ function home() {
       <Header />
       <TweetEditor />
       <Tweets />
+      <TweetContent />
+
 
     </main>
   )
