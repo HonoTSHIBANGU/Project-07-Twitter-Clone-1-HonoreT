@@ -7,6 +7,8 @@ import Photo9 from '../images/tweet-profile-photo.png'
 import Photo10 from '../images/Group.png'
 import Photo12 from '../images/Tweet-image.png';
 import Photo11 from '../images/Tweet-Profile-Photo.svg';
+import Photo13 from '../images/hh.jpg';
+
 
 
 
@@ -47,7 +49,7 @@ const tweets = [
         autorDetail: '@Twitter',
         tweetText: 'BIG NEWS lol jk still Twitter.',
         imageSrc: false,
-        Image: false,
+        Image: Photo13,
         authorAvatarSrc: Photo10,
         actions: [
             { id: 1, iconSource: Photo5 },
@@ -81,11 +83,19 @@ function Tweets() {
                         <div className='tweet-image'>
                             <img src={item.Image} alt="" />
                         </div>
+
                         <div className='tweet-actions'>
-                            <div className='tweet-action'></div>
-                            <div className='tweet-action'></div>
-                            <div className='tweet-action'></div>
-                            <div className='tweet-action'></div>
+                            {tweets[0].actions.map(({ iconSource, id }) =>
+                                <div className='tweet-action'>
+                                    <img src={iconSource} />
+                                    <div>{id}</div>
+                                </div>
+                            )}
+
+
+
+
+
                         </div>
                     </div>
                 </div>
@@ -96,7 +106,7 @@ function Tweets() {
 
 
 
-    )
+    );
     return (
         <div className=''>{ht}</div>
     )
