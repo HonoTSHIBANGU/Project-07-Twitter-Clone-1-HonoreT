@@ -1,10 +1,10 @@
 import React from 'react'
 import avatar from '../images/profile-photo.png';
-import icon1 from '../images/icon1.svg';
-import icon2 from '../images/icon2.svg';
-import icon3 from '../images/icon3.svg';
-import icon4 from '../images/icon4.svg';
-import icon5 from '../images/icon5.svg';
+import icon1 from '../images/img.png';
+import icon2 from '../images/Gif.png';
+import icon3 from '../images/Poll.png';
+import icon4 from '../images/Emoji.png';
+import icon5 from '../images/Schedule.png';
 
 
 
@@ -29,6 +29,8 @@ function TweetEditor() {
                 </div>
             </div>
         </div>
+
+
 
 
 

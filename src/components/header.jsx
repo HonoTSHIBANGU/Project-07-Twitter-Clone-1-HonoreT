@@ -1,6 +1,5 @@
 import React from 'react'
-import logo from '../images/iconheader.svg';
-
+import logo from '../images/Timeline-Pro.png'
 
 
 function header() {
