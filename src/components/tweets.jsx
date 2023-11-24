@@ -1,15 +1,12 @@
 import React from 'react'
 import Photo5 from '../images/Reply.png'
 import Photo6 from '../images/Retweet.png'
-import Photo7 from '../images/React'
+import Photo7 from '../images/React.png'
 import Photo8 from '../images/Buton.png'
 import Photo9 from '../images/tweet-profile-photo.png'
-import photo10 from '../images/Group.png'
-import photo11 from '../images/Tweet-Profile-Photo2.svg';
-import photo12 from '../images/Tweet-image.png';
-
-
-
+import Photo10 from '../images/Group.png'
+import Photo12 from '../images/Tweet-image.png';
+import Photo11 from '../images/Tweet-Profile-Photo.svg';
 
 
 
@@ -21,7 +18,7 @@ const tweets = [
         tweetText: 'President Joe Biden touted a new agreement reached with the European Union to ease Trump-era tariffs on aluminum and steel as a "major breakthrough" that would serve to both strengthen the US steel industry and combat the global climate crisis.',
         imageSrc: Photo9,
         Image: false,
-        authorAvatarSrc: photo10,
+        authorAvatarSrc: Photo10,
         actions: [
             { id: 1, iconSource: Photo5 },
             { id: 2, iconSource: Photo6 },
@@ -34,9 +31,9 @@ const tweets = [
         autor: 'The New York Times',
         autorDetail: '@anytimes',
         tweetText: 'Gardening boomed during the pandemic. Six Black writers share how it has helped them re-establish, and reimagine, a connection to cultivation and the land.',
-        imageSrc: photo11,
-        Image: photo12,
-        authorAvatarSrc: photo10,
+        imageSrc: Photo11,
+        Image: Photo12,
+        authorAvatarSrc: Photo10,
         actions: [
             { id: 1, iconSource: Photo5 },
             { id: 2, iconSource: Photo6 },
@@ -50,8 +47,8 @@ const tweets = [
         autorDetail: '@Twitter',
         tweetText: 'BIG NEWS lol jk still Twitter.',
         imageSrc: false,
-        Image: '',
-        authorAvatarSrc: photo10,
+        Image: false,
+        authorAvatarSrc: Photo10,
         actions: [
             { id: 1, iconSource: Photo5 },
             { id: 2, iconSource: Photo6 },
@@ -69,24 +66,34 @@ function Tweets() {
     const ht = tweets.map((item) =>
         <div className='tweets'>
             <div className='tweet'>
-                <div className='tweet-title'>
-                    <p className='tweet-title'><span className='tweet-title-author'>The new york Times</span>
-                        <span><img src={photo4} alt='' /></span>
-                        <span className='tweet-title-details'>@nytimes</span>
-                    </p>
-                    <p className='tweet-text'>Gardening boomed during the pandemic. Six Black writers share how it
-                        has helped them re-establish, and reimagine, a connection to cultivation and the land</p>
-                    <a className='tweet-image' href=""><img src={photo3} alt="" /></a>
+                <div className='tweet-avatar'>
+                    <img src={item.imageSrc} alt="" />
                 </div>
-                <div className='tweet-actions'>
-                    <div className='tweet-action'><img src={Reply1} alt="" /></div>
-                    <div className='tweet-action'><img src={Reply2} alt="" /></div>
-                    <div className='tweet-action'><img src={Reply3} alt="" /></div>
-                    <div className='tweet-action'><img src={Reply4} alt="" /></div>
-                </div>
+                <div className='tweet-content'>
+                    <div className='tweet-body'>
+                        <div className='tweet-title'>
+                            <div className='tweet-title-author'><p>{item.autor}</p> </div>
+                            <div className='tweet-title-details'><img src={item.authorAvatarSrc} alt="" /></div>
+                            <div className='tweet-title-details'><p >{item.autorDetail}</p></div>
 
+                        </div>
+                        <p>{item.tweetText}</p>
+                        <div className='tweet-image'>
+                            <img src={item.Image} alt="" />
+                        </div>
+                        <div className='tweet-actions'>
+                            <div className='tweet-action'></div>
+                            <div className='tweet-action'></div>
+                            <div className='tweet-action'></div>
+                            <div className='tweet-action'></div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+
+
+
 
 
     )

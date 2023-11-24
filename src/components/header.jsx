@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../images/Timeline-Pro.png'
+import logo from '../images/Timeline-Prop.png'
 
 
 function header() {
