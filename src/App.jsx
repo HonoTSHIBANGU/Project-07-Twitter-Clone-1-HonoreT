@@ -1,7 +1,7 @@
 
 import Layout from "./components/layout.jsx";
-import SideBar from "../pages/SideBar.jsx"
-import Home from "../pages/Home.jsx";
+import SideBar from "./pages/SideBar.jsx"
+import Home from "./pages/Home.jsx";
 
 
 import('./style/reset.css');

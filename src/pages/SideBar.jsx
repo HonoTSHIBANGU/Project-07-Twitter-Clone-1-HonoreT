@@ -17,7 +17,7 @@ function SideBar() {
     return (
         <div className='left-sidebar'>
             <img src={LogoTwitter} alt="" />
-            <img src={Accueil} alt="" />
+            <button><img src={Accueil} alt="" />Home</button>
             <img src={Explore} alt="" />
             <img src={Notifications} alt="" />
             <img src={Messages} alt="" />
