@@ -1,75 +1,57 @@
 import React from "react";
-import Search from "../images/Search.png";
-import Settings from "../images/Settings.png";
 import Trends2 from "../pages/Trends2.jsx";
+import Setting from "../images/Settings.png";
 
-const Trends = [
-  { setting: Settings, title: "Trends for you" },
-  {
-    cityTweet: "Trending in Turkey",
-    htag: "#SQUID",
-    numbersTweets: "2,066 Tweets",
-    point: "...",
-  },
-  {
-    cityTweet: "Trending in Turkey",
-    htag: "#SQUID",
-    numbersTweets: "2,066 Tweets",
-    point: "...",
-  },
-  {
-    cityTweet: "Trending in Turkey",
-    htag: "#SQUID",
-    numbersTweets: "2,066 Tweets",
-    point: "...",
-  },
-  {
-    cityTweet: "Trending in Turkey",
-    htag: "#SQUID",
-    numbersTweets: "2,066 Tweets",
-    point: "...",
-  },
-  { text: "show more" },
-];
-
-function Trendstweet() {
-  const trendContent = Trends.map((item) => (
-    <div className="background">
-      <div className="titre">
-        {item.title}
-        <a href="">
-          <img src={item.setting} alt="" />
-        </a>
-      </div>
-      <div className="settingsparent">
-        <div className="separate">
-          <p className="settings">{item.cityTweet}</p>
-          <p className="settings1">
-            <span>{item.htag}</span>
-          </p>
-          <p className="settings">{item.numbersTweets}</p>
-        </div>
-
-        <div className="setting">
-          <p>{item.point} </p>
-        </div>
-      </div>
-
-      <div className="text">{item.text} </div>
-    </div>
-  ));
-
+function Trends() {
   return (
-    <div className="space">
+    <div>
       <div>
-        <img src={Search} alt="" />
-        <input type="texte" placeholder="" />
+        <div className="trend3">
+          <div className="trend">
+            <p>trends for you</p>
+            <img src={Setting} alt="" />
+          </div>
+          <div className="trend4">
+            <div className="trend2">
+              <p>Treding in Turkey</p>
+              <p>...</p>
+            </div>
+            <p>
+              <span>#SQUID</span>
+            </p>
+            <p>2,066 Tweets</p>
+          </div>
+          <div className="trend4">
+            <div className="trend2">
+              <p>Treding in Turkey</p>
+              <p>...</p>
+            </div>
+            <p>
+              <span>#SQUID</span>
+            </p>
+            <p>2,066 Tweets</p>
+          </div>
+          <div className="trend4">
+            <div className="trend2">
+              <p>Treding in Turkey</p>
+              <p>...</p>
+            </div>
+            <p>
+              <span>#SQUID</span>
+            </p>
+            <p>2,066 Tweets</p>
+          </div>
+          <div>
+            <button className="show">
+              <span>show more</span>
+            </button>
+          </div>
+        </div>
       </div>
-
-      <div>{trendContent} </div>
+      <div></div>
       <Trends2 />
     </div>
   );
 }
 
-export default Trendstweet;
+export default Trends;

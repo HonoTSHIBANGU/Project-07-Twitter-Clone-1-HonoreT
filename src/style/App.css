@@ -310,9 +310,6 @@ color: #6E767D;
 font-family: Arial, Helvetica, sans-serif;
 font-size: 13px;
 }
-
-
-
 .settingsparent{
     display: flex;
     justify-content: space-between;
@@ -384,5 +381,36 @@ height: 40px;
     display: flex;
     justify-content: space-between;
 }
+.trend{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
 
+.trend2{
+    display: flex;
+    justify-content: space-between;
+    
+}
 
+.trend4{
+    margin: 10px;
+}
+
+.trend3{
+    display: flex;
+    flex-direction: column;
+    background-color: #2F3336;
+    border-radius: 20px;
+    padding: 1px;
+    gap: 1px;
+    width: 300px;
+}
+
+.show{
+    color: #1D9BF0;
+    background-color: transparent;
+    border: none;
+    font-size: 15px;
+    margin: 10px;
+}
