@@ -2,6 +2,7 @@ import React from "react";
 import Profil1 from "../images/Profile-Photo2.png";
 import Profil2 from "../images/Group.png";
 import Profil3 from "../images/tweet-profile-photo.png";
+import Profil4 from "../images/Profile-Photo3.png";
 function Trends2() {
   return (
     <div className="follow2">
@@ -24,14 +25,16 @@ function Trends2() {
       <div>
         <div className="follow1">
           <div>
-            <img src={Profil1} alt="" />
+            <img src={Profil3} alt="" />
           </div>
           <div>
             <div className="times">
-              <p>The New York Times</p>
-              <img src={Profil3} alt="" />
+              <p>
+                <span>CNN</span>
+              </p>
+              <img src={Profil2} alt="" />
             </div>
-            <p>@anytimes</p>
+            <p>@CNN</p>
           </div>
           <button>Follow</button>
         </div>
@@ -39,14 +42,14 @@ function Trends2() {
       <div>
         <div className="follow1">
           <div>
-            <img src={Profil1} alt="" />
+            <img src={Profil4} alt="" />
           </div>
           <div>
             <div className="times">
-              <p>The New York Times</p>
+              <p>Twitter</p>
               <img src={Profil2} alt="" />
             </div>
-            <p>@anytimes</p>
+            <p>@Twitter</p>
           </div>
           <button>Follow</button>
         </div>
