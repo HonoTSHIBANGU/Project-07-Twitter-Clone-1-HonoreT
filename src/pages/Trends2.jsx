@@ -1,7 +1,7 @@
 import React from "react";
 import Profil1 from "../images/Profile-Photo2.png";
 import Profil2 from "../images/Group.png";
-
+import Profil3 from "../images/tweet-profile-photo.png";
 function Trends2() {
   return (
     <div className="follow2">
@@ -29,7 +29,7 @@ function Trends2() {
           <div>
             <div className="times">
               <p>The New York Times</p>
-              <img src={Profil2} alt="" />
+              <img src={Profil3} alt="" />
             </div>
             <p>@anytimes</p>
           </div>
