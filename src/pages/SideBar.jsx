@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import LogoTwitter from "../images/Twitter.png";
 import Accueil from "../images/Home-Fill.png";
 import Explore from "../images/Explore.png";
@@ -16,11 +17,11 @@ function SideBar() {
     <div className="left-sidebar">
       <img src={LogoTwitter} alt="twitter-logo" />
       <ul className="link">
-        <li className="link-li">
-          <a href="">
+        <li>
+          <NavLink to="/home" className="link-li">
             <img src={Accueil} alt="accueil" />
-          </a>
-          Home
+            Home
+          </NavLink>
         </li>
         <li className="link-li">
           <a href="">
