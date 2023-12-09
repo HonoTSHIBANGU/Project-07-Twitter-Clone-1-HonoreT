@@ -10,7 +10,7 @@ function Trends2() {
         <h3>Who to follow</h3>
       </div>
       <div className="follow1">
-        <div>
+        <div className="profil2">
           <img src={Profil1} alt="" />
         </div>
         <div>
@@ -24,7 +24,7 @@ function Trends2() {
       </div>
       <div>
         <div className="follow1">
-          <div>
+          <div className="profil2">
             <img src={Profil3} alt="" />
           </div>
           <div>
@@ -41,7 +41,7 @@ function Trends2() {
       </div>
       <div>
         <div className="follow1">
-          <div>
+          <div className="profil2">
             <img src={Profil4} alt="" />
           </div>
           <div>
@@ -53,6 +53,9 @@ function Trends2() {
           </div>
           <button>Follow</button>
         </div>
+        <button className="show">
+          <span>show more</span>
+        </button>
       </div>
     </div>
   );
