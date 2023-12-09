@@ -4,11 +4,11 @@ import Setting from "../images/Settings.png";
 
 function Trends() {
   return (
-    <div>
+    <>
       <div>
         <div className="trend3">
           <div className="trend">
-            <p>trends for you</p>
+            <h3>trends for you</h3>
             <img src={Setting} alt="" />
           </div>
           <div className="trend4">
@@ -47,10 +47,9 @@ function Trends() {
             </button>
           </div>
         </div>
+        <Trends2 />
       </div>
-      <div></div>
-      <Trends2 />
-    </div>
+    </>
   );
 }
 
