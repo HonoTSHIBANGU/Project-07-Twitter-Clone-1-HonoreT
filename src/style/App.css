@@ -380,5 +380,7 @@ height: 40px;
 
 .division{
     display: flex;
-
+    justify-content: space-between;
 }
+
+

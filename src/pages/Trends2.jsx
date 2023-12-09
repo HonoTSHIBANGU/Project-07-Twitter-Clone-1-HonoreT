@@ -5,7 +5,7 @@ import Photo11 from "../images/Profile-Photo3.png";
 import PhotoProfile2 from "../images/Profile-Photo2.png";
 
 const trends2 = [
-  { title3: "Who Follow", imageSrc: false },
+  { title3: "Who Follow" },
   {
     autor: "The New York Times",
     autorDetail: "@anytimes",
@@ -31,30 +31,29 @@ const trends2 = [
 ];
 
 function Trends2() {
-  const trends3 = trends2.map((item, i) => (
-    <div className="back" key={i}>
-      <div>
+  const trends3 = trends2.map((item) => (
+    <>
+      <div className="back">
         <div>{item.title3}</div>
-      </div>
-
-      <div className="division">
-        <div className="image">
-          <img src={item.imageSrc} alt="" />
-        </div>
-
-        <div className="div">
-          <div className="author1">
-            <p>{item.autor} </p>
-            <img src={item.authorAvatarSrc} alt="" />
+        <div className="division">
+          <div className="image">
+            <img src={item.imageSrc} alt="" />
           </div>
 
-          <div>{item.autorDetail}</div>
-        </div>
+          <div className="div">
+            <div className="author1">
+              <p>{item.autor} </p>
+              <img src={item.authorAvatarSrc} alt="" />
+            </div>
 
-        <div className="tweettext">{item.tweetText} </div>
+            <div>{item.autorDetail}</div>
+          </div>
+
+          <div className="tweettext">{item.tweetText} </div>
+        </div>
+        <div>{item.paragraph1} </div>
       </div>
-      <div>{item.paragraph1} </div>
-    </div>
+    </>
   ));
 
   return <div>{trends3} </div>;

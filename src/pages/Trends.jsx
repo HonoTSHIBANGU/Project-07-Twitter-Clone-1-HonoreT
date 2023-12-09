@@ -33,15 +33,15 @@ const Trends = [
 ];
 
 function Trendstweet() {
-  const trendContent = Trends.map((item, i) => (
-    <div className="background" key={i}>
+  const trendContent = Trends.map((item) => (
+    <div className="background">
       <div className="titre">
         {item.title}
         <a href="">
           <img src={item.setting} alt="" />
         </a>
       </div>
-      <div className="settingsparent" key={i}>
+      <div className="settingsparent">
         <div className="separate">
           <p className="settings">{item.cityTweet}</p>
           <p className="settings1">

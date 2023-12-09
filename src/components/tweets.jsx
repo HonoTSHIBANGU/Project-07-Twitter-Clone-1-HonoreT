@@ -57,8 +57,8 @@ const tweets = [
 ];
 
 function Tweets() {
-  const ht = tweets.map((item, index) => (
-    <div className="tweets" key={index}>
+  const ht = tweets.map((item) => (
+    <div className="tweets">
       <div className="tweet">
         <div className="tweet-avatar">
           {item.imageSrc && <img src={item.imageSrc} alt="" />}
