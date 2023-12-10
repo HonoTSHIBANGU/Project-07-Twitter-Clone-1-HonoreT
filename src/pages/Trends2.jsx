@@ -6,7 +6,7 @@ import Profil4 from "../images/Profile-Photo3.png";
 function Trends2() {
   return (
     <div className="follow2">
-      <div>
+      <div className="follow0">
         <h3>Who to follow</h3>
       </div>
       <div className="follow1">

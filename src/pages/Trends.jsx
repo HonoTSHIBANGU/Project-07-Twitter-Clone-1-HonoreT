@@ -1,11 +1,13 @@
 import React from "react";
 import Trends2 from "../pages/Trends2.jsx";
+import Trends3 from "../pages/Trends3.jsx";
 import Setting from "../images/Settings.png";
 
 function Trends() {
   return (
     <>
       <div className="separate2">
+        <Trends3 />
         <div className="trend3">
           <div className="trend">
             <h3>trends for you</h3>

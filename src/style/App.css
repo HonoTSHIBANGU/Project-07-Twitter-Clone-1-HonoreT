@@ -421,12 +421,16 @@ height: 40px;
 .follow1{
     display: flex;
     justify-content: space-between;
+    margin: 15px;
 }
 
 .follow2{
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 0.5px;
+    margin: 1px;
+    background-color: #2F3336;
+    border-radius: 15px;
 }
 
 .profil2{
@@ -440,4 +444,7 @@ height: 40px;
     flex-direction: column;
     gap: 30px;
     
+}
+.follow0{
+    margin:15px;
 }
