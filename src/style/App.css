@@ -475,6 +475,7 @@ height: 40px;
     display: flex;
     gap: 25px;
     margin: 20px;  
+
 }
 
 .trends8{
@@ -489,7 +490,7 @@ height: 40px;
     text-align: center;
     border-width: 0.5px;
     height: 27px;
-    background-color:transparent;
+    background-color:#2F3336;
  
 
  }

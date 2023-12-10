@@ -6,7 +6,7 @@ function Trends3() {
     <div className="trends9">
       <div className="trends6">
         <img className="trends8" src={search} alt="" />
-        <input className="trends10" type="text" placeholder="" />
+        <input className="trends10" type="search" placeholder="" />
       </div>
     </div>
   );
