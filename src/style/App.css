@@ -407,6 +407,13 @@ height: 40px;
     width: 300px;
 }
 
+.trends9{
+    background-color: #2F3336;
+    border-radius: 20px;
+    height: 30px;
+ 
+}
+
 .show{
     color: #1D9BF0;
     background-color: transparent;
@@ -442,9 +449,49 @@ height: 40px;
 .separate2{
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 20px;
     
 }
 .follow0{
     margin:15px;
 }
+
+.trends3{
+    background-color: #2F3336;
+    width: 300px;
+    border-radius: 15px;
+   
+}
+
+.trends7{
+
+ background-color:transparent;
+ 
+  
+}
+
+.trends6{
+    display: flex;
+    gap: 25px;
+    margin: 20px;  
+}
+
+.trends8{
+    display: flex;
+    gap: 25px;
+    margin: 5px;
+}
+
+.trends10{
+    background-color: ;
+    margin:1px;
+    text-align: center;
+    border-width: 0.5px;
+ 
+
+ }
+
+ .other{
+    color: #475055;
+ }
+

@@ -2,12 +2,15 @@ import React from "react";
 import Trends2 from "../pages/Trends2.jsx";
 import Trends3 from "../pages/Trends3.jsx";
 import Setting from "../images/Settings.png";
+import Trends4 from "./Trends4.jsx";
 
 function Trends() {
   return (
     <>
       <div className="separate2">
-        <Trends3 />
+        <div>
+          <Trends3 />
+        </div>
         <div className="trend3">
           <div className="trend">
             <h3>trends for you</h3>
@@ -51,6 +54,7 @@ function Trends() {
         </div>
 
         <Trends2 />
+        <Trends4 />
       </div>
     </>
   );
