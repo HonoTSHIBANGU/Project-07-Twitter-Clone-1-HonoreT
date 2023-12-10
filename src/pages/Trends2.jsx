@@ -20,14 +20,14 @@ function Trends2() {
           </div>
           <p>@anytimes</p>
         </div>
-        <button>Follow</button>
+        <button className="button2">Follow</button>
       </div>
       <div>
         <div className="follow1">
           <div className="profil2">
             <img src={Profil3} alt="" />
           </div>
-          <div>
+          <div className="class">
             <div className="times">
               <p>
                 <span>CNN</span>
@@ -36,7 +36,7 @@ function Trends2() {
             </div>
             <p>@CNN</p>
           </div>
-          <button>Follow</button>
+          <button className="button2">Follow</button>
         </div>
       </div>
       <div>
@@ -44,14 +44,14 @@ function Trends2() {
           <div className="profil2">
             <img src={Profil4} alt="" />
           </div>
-          <div>
+          <div className="class">
             <div className="times">
               <p>Twitter</p>
               <img src={Profil2} alt="" />
             </div>
             <p>@Twitter</p>
           </div>
-          <button>Follow</button>
+          <button className="button2">Follow</button>
         </div>
         <button className="show">
           <span>show more</span>

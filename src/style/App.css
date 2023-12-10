@@ -297,7 +297,7 @@ line-height: normal;
 }
 
 .conteneur :hover{
-    background-color: rgb(127, 94, 52);
+    background-color: rgb(131, 112, 87);
     border-radius: 60px;
     
 }
@@ -422,13 +422,14 @@ height: 40px;
     margin: 10px;
 }
 .times{
-    display: flex;
+    display: flex;  
 }
 
 .follow1{
     display: flex;
     justify-content: space-between;
     margin: 15px;
+ 
 }
 
 .follow2{
@@ -483,10 +484,12 @@ height: 40px;
 }
 
 .trends10{
-    background-color: ;
+    
     margin:1px;
     text-align: center;
     border-width: 0.5px;
+    height: 27px;
+    background-color:transparent;
  
 
  }
@@ -495,3 +498,27 @@ height: 40px;
     color: #475055;
  }
 
+ .button2{
+    border-radius: 15px;
+    width: 60px;
+height: 30px;
+font-size: 12px;
+ }
+
+ .times2{
+    display: flex; 
+    
+ }
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    gap: 230px;
+}
+.likes{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+ 

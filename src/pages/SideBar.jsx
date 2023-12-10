@@ -7,7 +7,6 @@ import Notifications from "../images/Notifications.png";
 import Messages from "../images/Messages.png";
 import Bookmarks from "../images/Bookmarks.png";
 import Listes from "../images/Lists.png";
-import Profile from "../images/Profile.png";
 import More from "../images/More.png";
 import avatar from "../images/hh.jpg";
 import key from "../images/ht.png";
@@ -53,12 +52,7 @@ function SideBar() {
           </a>
           Listes
         </li>
-        <li className="link-li">
-          <NavLink to="username">
-            <img src={Profile} alt="" />
-          </NavLink>
-          Profile
-        </li>
+
         <li className="link-li">
           <a href="">
             <img src={More} alt="" />
@@ -66,23 +60,22 @@ function SideBar() {
           More
         </li>
       </ul>
-
-      <div>
+      <div className="footer">
         <button className="bouton-tweet">Tweet</button>
-      </div>
-
-      <div className="conteneur">
-        <div className="imageText">
-          <button>
-            <img className="profile-body" src={avatar} alt="" />
-          </button>
-          <div className="textDiv">
-            <div className="division">
-              <h1 className="text">Honore TSHIBANGU</h1>
-              <img className="key" src={key} alt="cadenas" />
+        <div>
+          <div className="conteneur">
+            <div className="imageText">
+              <NavLink to="/username">
+                <img className="profile-body" src={avatar} alt="" />
+              </NavLink>
+              <div className="textDiv">
+                <div className="division">
+                  <h1 className="text">Honore TSHIBANGU</h1>
+                  <img className="key" src={key} alt="cadenas" />
+                </div>
+                <h1 className="textContent">@Honore</h1>
+              </div>
             </div>
-
-            <h1 className="textContent">@Honore</h1>
           </div>
         </div>
       </div>

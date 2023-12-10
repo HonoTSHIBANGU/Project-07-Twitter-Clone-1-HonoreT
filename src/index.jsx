@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./pages/home.jsx";
 import App from "./App.jsx";
-// import UserName from "./images/Profile-Photo";
+import Profil from "./pages/UserName.jsx";
 
 const router = createBrowserRouter([
   {
@@ -14,10 +14,10 @@ const router = createBrowserRouter([
     path: "/home",
     element: <Home />,
   },
-  // {
-  //   path: "/username",
-  //   element: <UserName />,
-  // },
+  {
+    path: "/username",
+    element: <Profil />,
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(

@@ -1,8 +1,5 @@
 import React from "react";
-import Photo5 from "../images/Reply.png";
-import Photo6 from "../images/Retweet.png";
-import Photo7 from "../images/React.png";
-import Photo8 from "../images/Buton.png";
+import Tweets2 from "../components/Tweets2.jsx";
 import Photo9 from "../images/tweet-profile-photo.png";
 import Photo10 from "../images/Group.png";
 import Photo12 from "../images/Tweet-image.png";
@@ -18,12 +15,6 @@ const tweets = [
     imageSrc: Photo9,
     Image: false,
     authorAvatarSrc: Photo10,
-    actions: [
-      { id: 1, iconSource: Photo5 },
-      { id: 2, iconSource: Photo6 },
-      { id: 3, iconSource: Photo7 },
-      { id: 4, iconSource: Photo8 },
-    ],
   },
   {
     autor: "The New York Times",
@@ -33,12 +24,6 @@ const tweets = [
     imageSrc: Photo11,
     Image: Photo12,
     authorAvatarSrc: Photo10,
-    actions: [
-      { id: 1, iconSource: Photo5 },
-      { id: 2, iconSource: Photo6 },
-      { id: 3, iconSource: Photo7 },
-      { id: 4, iconSource: Photo8 },
-    ],
   },
   {
     autor: "Twitter",
@@ -47,12 +32,6 @@ const tweets = [
     imageSrc: false,
     Image: Photo13,
     authorAvatarSrc: Photo10,
-    actions: [
-      { id: 1, iconSource: Photo5 },
-      { id: 2, iconSource: Photo6 },
-      { id: 3, iconSource: Photo7 },
-      { id: 4, iconSource: Photo8 },
-    ],
   },
 ];
 
@@ -80,16 +59,8 @@ function Tweets() {
             <div className="tweet-image">
               {item.Image && <img src={item.Image} alt="" />}
             </div>
-
-            <div className="tweet-actions">
-              {item.actions.map(({ iconSource, id }) => (
-                <div className="tweet-action" key={id}>
-                  <img src={iconSource} alt="" />
-                  <div>{id}</div>
-                </div>
-              ))}
-            </div>
           </div>
+          <Tweets2 />
         </div>
       </div>
     </div>
