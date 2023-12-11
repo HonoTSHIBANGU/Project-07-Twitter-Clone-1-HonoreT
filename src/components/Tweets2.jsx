@@ -7,38 +7,36 @@ import Photo8 from "../images/Buton.png";
 
 function Tweets2() {
   const [count, setCount] = useState(0);
-  const [like, setLike] = useState(false);
 
   const toggleCount = () => {
     if (count === 0) {
       setCount(count + 1);
-      setLike(true);
     } else {
       setCount(count - 1);
-      setLike(false);
     }
   };
 
   return (
     <div>
       <div className="tweet-actions">
-        <div className="tweet-action">
-          <button onClick={toggleCount}>
+        <div className="tweet-action1">
+          <button>
             <img src={Photo5} alt="" />
           </button>
-          <p>{count}</p>
+          <p>2</p>
         </div>
-        <div className="tweet-action">
+        <div className="tweet-action2">
           <img src={Photo6} alt="" />
           <p>2</p>
         </div>
-        <div className="tweet-action">
-          <img src={Photo7} alt="" />
-          <p>2</p>
+        <div className="tweet-action3">
+          <button onClick={toggleCount}>
+            <img src={Photo7} alt="" />
+          </button>
+          <p>{count}</p>
         </div>
-        <div className="tweet-action">
+        <div className="tweet-action4">
           <img src={Photo8} alt="" />
-          <p>2</p>
         </div>
       </div>
     </div>

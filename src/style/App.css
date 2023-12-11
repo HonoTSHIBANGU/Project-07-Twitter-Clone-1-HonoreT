@@ -198,16 +198,40 @@ body {
     color: #2F3336;
 }
 
-.tweet-action {
+.tweet-action1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+.tweet-action2 {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 20px;
 }
 
-.tweet-actions :hover{
-    background-color: rgb(197, 193, 187);
-    border-radius: 60px;
+.tweet-action3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+.tweet-action4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.tweet-action3:hover button, .tweet-action3:hover p{
+    background-color: rgb(132, 49, 19);
+    
+    
 }
 
 .left-sidebar {
@@ -514,12 +538,15 @@ font-size: 12px;
 .footer{
     display: flex;
     flex-direction: column;
-    gap: 230px;
+    gap: 195px;
 }
 .likes{
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
 }
+
+
+
 
  

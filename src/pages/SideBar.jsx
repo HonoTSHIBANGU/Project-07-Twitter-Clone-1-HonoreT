@@ -17,7 +17,7 @@ function SideBar() {
       <img src={LogoTwitter} alt="twitter-logo" />
       <ul className="link">
         <li>
-          <NavLink to="/home" className="link-li">
+          <NavLink to="/" className="link-li">
             <img className="navlink" src={Accueil} alt="accueil" />
             Home
           </NavLink>
@@ -51,6 +51,12 @@ function SideBar() {
             <img src={Listes} alt="" />
           </a>
           Listes
+        </li>
+        <li className="link-li">
+          <a href="">
+            <img src={More} alt="" />
+          </a>
+          Profil
         </li>
 
         <li className="link-li">
