@@ -2,7 +2,7 @@ import React from "react";
 import Tweets2 from "../components/Tweets2.jsx";
 import Photo9 from "../images/tweet-profile-photo.png";
 import Photo10 from "../images/Group.png";
-import Photo12 from "../images/Tweet-image.png";
+import Photo12 from "../images/tweet-image.png";
 import Photo11 from "../images/Tweet-Profile-Photo.svg";
 import Photo13 from "../images/hh.jpg";
 
