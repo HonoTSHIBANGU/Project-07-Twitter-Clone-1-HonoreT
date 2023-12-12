@@ -53,10 +53,12 @@ function SideBar() {
           Listes
         </li>
         <li className="link-li">
-          <a href="">
-            <img src={More} alt="" />
-          </a>
-          Profil
+          <NavLink to="/username" className="link-li">
+            <a href="">
+              <img src={More} alt="" />
+            </a>
+            Profil
+          </NavLink>
         </li>
 
         <li className="link-li">
