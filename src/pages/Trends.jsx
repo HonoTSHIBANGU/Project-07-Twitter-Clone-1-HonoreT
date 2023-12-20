@@ -1,62 +1,25 @@
 import React from "react";
-import Trends2 from "../pages/Trends2.jsx";
-import Trends3 from "../pages/Trends3.jsx";
-import Setting from "../images/Settings.png";
-import Trends4 from "./Trends4.jsx";
+import Trends1 from "./Trend1";
+import Trends2 from "./Trends2";
+import Trends3 from "./Trends3";
+import Trends4 from "./Trends4";
 
 function Trends() {
   return (
-    <>
-      <div className="separate2">
-        <div>
-          <Trends3 />
-        </div>
-        <div className="trend3">
-          <div className="trend">
-            <h3>trends for you</h3>
-            <img src={Setting} alt="" />
-          </div>
-          <div className="trend4">
-            <div className="trend2">
-              <p>Treding in Turkey</p>
-              <p>...</p>
-            </div>
-            <p>
-              <span>#SQUID</span>
-            </p>
-            <p>2,066 Tweets</p>
-          </div>
-          <div className="trend4">
-            <div className="trend2">
-              <p>Treding in Turkey</p>
-              <p>...</p>
-            </div>
-            <p>
-              <span>#SQUID</span>
-            </p>
-            <p>2,066 Tweets</p>
-          </div>
-          <div className="trend4">
-            <div className="trend2">
-              <p>Treding in Turkey</p>
-              <p>...</p>
-            </div>
-            <p>
-              <span>#SQUID</span>
-            </p>
-            <p>2,066 Tweets</p>
-          </div>
-          <div>
-            <button className="show">
-              <span>show more</span>
-            </button>
-          </div>
-        </div>
-
+    <div className="t-trend">
+      <div className="t-trend1">
+        <Trends1 />
+      </div>
+      <div className="t-trend2">
         <Trends2 />
+      </div>
+      <div className="t-trend3">
+        <Trends3 />
+      </div>
+      <div className="t-trend4">
         <Trends4 />
       </div>
-    </>
+    </div>
   );
 }
 

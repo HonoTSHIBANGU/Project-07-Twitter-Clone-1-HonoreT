@@ -1,64 +1,72 @@
 import React from "react";
-import Profil1 from "../images/Profile-Photo2.png";
-import Profil2 from "../images/Group.png";
-import Profil3 from "../images/tweet-profile-photo.png";
-import Profil4 from "../images/Profile-Photo3.png";
+import Setting from "../images/Settings.png";
+
+const trendsLists = [
+  {
+    img: Setting,
+    title: "Trends for you",
+    from: "Trending in Turkey",
+    htag: "#SQUID",
+    number: "2,066 Tweets",
+    point: "...",
+    guide: false,
+  },
+  {
+    img: false,
+    title: false,
+    from: "Trending in Turkey",
+    htag: "#SQUID",
+    number: "2,066 Tweets",
+    point: "...",
+    guide: false,
+  },
+  {
+    img: false,
+    title: false,
+    from: "Trending in Turkey",
+    htag: "#SQUID",
+    number: "2,066 Tweets",
+    point: "...",
+    guide: false,
+  },
+  {
+    img: false,
+    title: false,
+    from: "Trending in Turkey",
+    htag: "#SQUID",
+    number: "2,066 Tweets",
+    point: "...",
+    guide: "Show more",
+  },
+];
+
 function Trends2() {
-  return (
-    <div className="follow2">
-      <div className="follow0">
-        <h3>Who to follow</h3>
-      </div>
-      <div className="follow1">
-        <div className="profil2">
-          <img src={Profil1} alt="" />
+  const trendslist = trendsLists.map((item) => (
+    <div className="background2">
+      <div className="trendTitle">
+        <div className="title2">
+          <h3>{item.title}</h3>
         </div>
-        <div>
-          <div className="times">
-            <p>The New York Times</p>
-            <img src={Profil2} alt="" />
-          </div>
-          <p>@anytimes</p>
-        </div>
-        <button className="button2">Follow</button>
-      </div>
-      <div>
-        <div className="follow1">
-          <div className="profil2">
-            <img src={Profil3} alt="" />
-          </div>
-          <div className="class">
-            <div className="times">
-              <p>
-                <span>CNN</span>
-              </p>
-              <img src={Profil2} alt="" />
-            </div>
-            <p>@CNN</p>
-          </div>
-          <button className="button2">Follow</button>
+        <div className="img2">
+          <h3>
+            <img src={item.img} alt="" />
+          </h3>
         </div>
       </div>
       <div>
-        <div className="follow1">
-          <div className="profil2">
-            <img src={Profil4} alt="" />
-          </div>
-          <div className="class">
-            <div className="times">
-              <p>Twitter</p>
-              <img src={Profil2} alt="" />
-            </div>
-            <p>@Twitter</p>
-          </div>
-          <button className="button2">Follow</button>
+        <div className="div2">
+          <div className="from">{item.from}</div>
+          <div>{item.point} </div>
         </div>
-        <button className="show">
-          <span>show more</span>
-        </button>
+        <span className="htag">{item.htag}</span>
+      </div>
+      <div className="from1">{item.number}</div>
+      <div>
+        <button className=" color1">{item.guide}</button>
       </div>
     </div>
-  );
-}
+  ));
 
+  return <div>{trendslist}</div>;
+}
 export default Trends2;

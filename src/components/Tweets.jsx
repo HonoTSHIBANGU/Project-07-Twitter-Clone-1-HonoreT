@@ -66,7 +66,6 @@ function Tweets() {
     </div>
   ));
 
-  return <div className="">{ht}</div>;
+  return <div>{ht}</div>;
 }
-
 export default Tweets;
