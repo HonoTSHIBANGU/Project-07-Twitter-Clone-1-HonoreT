@@ -7,9 +7,7 @@ function Username() {
   return (
     <div>
       <div className="username">
-        
         <img src={Photo} alt="" />
-        
       </div>
     </div>
   );
