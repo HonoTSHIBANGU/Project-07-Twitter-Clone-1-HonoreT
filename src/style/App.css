@@ -188,7 +188,6 @@ body {
     justify-content: center;
     align-items: center;
     gap: 5rem;
-    color: grey;
     font-size: 1rem;
 }
 
@@ -203,7 +202,10 @@ body {
     align-items: center;
     justify-content: center;
     gap: 20px;
-    
+    color: #dee4e8;
+    background-color: transparent;
+    border: none;
+    outline: none;  
 }
 
 .tweet-action2 {
@@ -215,9 +217,17 @@ body {
 
 .tweet-action3 {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     gap: 20px;
+    align-items: center;
+    color: #dee4e8;
+    background-color: transparent;
+    border: none;
+    outline: none;
+
+    
+
+    
     
 }
 
@@ -228,9 +238,11 @@ body {
     gap: 20px;
 }
 
-.tweet-action3:hover button, .tweet-action3:hover p{
+
+
+/* .tweet-action3:hover button, .tweet-action3:hover p{
     background-color: rgb(132, 49, 19);  
-}
+} */
 .left-sidebar {
     position: sticky;
     top: 0;
