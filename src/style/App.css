@@ -210,10 +210,22 @@ body {
 
 .tweet-action2 {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     gap: 20px;
+    align-items: center;
+    color: #dee4e8;
+    background-color: transparent;
+    border: none;
+    outline: none;
 }
+
+.tweet-act2:hover {
+    background-color: rgb(24, 88, 157);  
+    border-radius: 40px;
+}
+
+
+
 
 .tweet-action3 {
     display: flex;
@@ -223,13 +235,21 @@ body {
     color: #dee4e8;
     background-color: transparent;
     border: none;
-    outline: none;
-
-    
-
-    
-    
+    outline: none;   
 }
+
+.tweet-act:hover {
+    background-color: rgb(242, 70, 7);  
+    border-radius: 40px;
+} 
+
+.tweet-act1:hover {
+    background-color: rgb(11, 133, 48);  
+    border-radius: 40px;
+}
+
+
+
 
 .tweet-action4 {
     display: flex;
@@ -238,11 +258,14 @@ body {
     gap: 20px;
 }
 
+.tweet-act4:hover {
+    background-color: rgb(222, 10, 109);  
+    
+}
 
 
-/* .tweet-action3:hover button, .tweet-action3:hover p{
-    background-color: rgb(132, 49, 19);  
-} */
+
+
 .left-sidebar {
     position: sticky;
     top: 0;

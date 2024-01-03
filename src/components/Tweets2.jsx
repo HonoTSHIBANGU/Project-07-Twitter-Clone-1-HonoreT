@@ -19,21 +19,27 @@ function Tweets2() {
   return (
     <div>
       <div className="tweet-actions">
-        <div>
-          <button className="tweet-action1">
+        <div className="tweet-act1">
+          <button className="tweet-action1" onClick={toggleCount}>
             <div>
               <img src={Photo5} alt="" />
             </div>
             <div>
-              <p>2</p>
+              <p>{count} </p>
             </div>
           </button>
         </div>
-        <div className="tweet-action2">
-          <img src={Photo6} alt="" />
-          <p>2</p>
+        <div className="tweet-act2">
+          <button className="tweet-action2" onClick={toggleCount}>
+            <div>
+              <img src={Photo6} alt="" />
+            </div>
+            <div>
+              <p>{count}</p>
+            </div>
+          </button>
         </div>
-        <div>
+        <div className="tweet-act">
           <button className="tweet-action3" onClick={toggleCount}>
             <div>
               <img src={Photo7} alt="" />
@@ -43,8 +49,8 @@ function Tweets2() {
             </div>
           </button>
         </div>
-        <div className="tweet-action4">
-          <img src={Photo8} alt="" />
+        <div>
+          <img className="tweet-act4" src={Photo8} alt="" />
         </div>
       </div>
     </div>
