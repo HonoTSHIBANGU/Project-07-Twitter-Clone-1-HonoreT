@@ -1,7 +1,5 @@
 import React from "react";
 import Photo from "../images/hh.jpg";
-import Sidebar from "../pages/SideBar.jsx";
-import Trends from "../pages/Trends.jsx";
 
 function Username() {
   return (

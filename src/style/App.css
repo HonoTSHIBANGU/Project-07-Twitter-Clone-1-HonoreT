@@ -224,9 +224,6 @@ body {
     border-radius: 40px;
 }
 
-
-
-
 .tweet-action3 {
     display: flex;
     justify-content: space-between;
@@ -244,13 +241,11 @@ body {
 } 
 
 .tweet-act1:hover {
-    background-color: rgb(11, 133, 48);  
+    background-color: rgb(123, 183, 141);  
     border-radius: 40px;
+    overflow-clip-margin: content-box;
+    overflow: hidden;
 }
-
-
-
-
 .tweet-action4 {
     display: flex;
     align-items: center;
@@ -262,9 +257,6 @@ body {
     background-color: rgb(222, 10, 109);  
     
 }
-
-
-
 
 .left-sidebar {
     position: sticky;
@@ -279,12 +271,8 @@ body {
     display: flex;
     align-items: center;
     gap: 20px;
-    font-size: 18px;
-   
-     
+    font-size: 18px;   
 }
-
-
 
 /* .link-li {
     display: flex;
@@ -293,8 +281,6 @@ body {
     text-decoration: none;
     color: white;
 } */
-
-
 
 .bouton-tweet {
 display: flex;
@@ -342,9 +328,7 @@ line-height: normal;
     display: flex;
     flex-direction: column;
     gap: 1px;
-    line-height: 1px;
-    
-    
+    line-height: 1px;   
 }
 
 .imageText{
@@ -398,19 +382,14 @@ width: 16.667px;
 height: 16.88px;
 flex-shrink: 0;
 }
-
-
 .author1{
     display: flex;
 }
-
-
 .image{
   display: flex;
 width: 40px;
 height: 40px;
 }
-
 
 .back{
     display: flex;
@@ -470,29 +449,7 @@ height: 40px;
     font-size: 15px;
     margin: 10px;
 }
-.times{
-    display: flex;  
-    gap: 5px;
-}
-
-.follow1{
-    display: flex;
-    justify-content: space-between;
-    margin: 15px;
- 
-}
-
-.follow2{
-    display: flex;
-    flex-direction: column;
- 
-}
-.follow0{
-    margin: 20px; 
-}
-
 .profil2{
-    display: flex;
     width: 40px;
     height: 40px;
 }
@@ -500,11 +457,8 @@ height: 40px;
 .separate2{
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    
+    gap: 20px;   
 }
-
-
 .trends3{
     background-color: #2F3336;
     width: 300px;
@@ -515,17 +469,6 @@ height: 40px;
     color: #475055;
     position: relative;
    top: 25px;
- }
-
- .button2{
-    border-radius: 15px;
-    width: 60px;
-    height: 30px;
-    font-size: 12px;
- }
-
- .times2{
-    display: flex;    
  }
 
 .footer{
@@ -552,6 +495,8 @@ height: 40px;
 .background2{
     position: relative;
     top: 4px;
+    margin: 0.2px;
+    padding: 0.2px
 }
    
 .search2{
@@ -595,19 +540,15 @@ padding: 12px;
     justify-content: space-between; 
     gap: 15px;   
     position: relative;
-    right: 10px;
-    
-    
+    right: 10px;  
 }
 
 .img2{
     width: 14px;
     height: 14px;
     position: relative;
-    right: 15px;
-    
+    right: 15px;   
 }
-
 .trendTitle{
 display: flex;
 justify-content: space-between;
@@ -625,8 +566,7 @@ top: px;
     flex-direction: column;
     gap: 5px;
     position: relative;
-    margin-right: 40px;
-    
+    margin-right: 40px;   
 }
 
 .t-trend2{
@@ -635,47 +575,85 @@ top: px;
     top: 2cqmin;
     border-radius: 25px;  
 }
-
 .t-trend3{
     background-color: #2F3336;
    position: relative;
    top: 25px;
-   border-radius: 25px;
+   border-radius: 25px; 
 }
 .link{
-    
     color: white;
     text-transform: none;
     text-decoration: none;  
 }
 .link :hover {
-
     background-color: rgb(58, 58, 57);
     border-radius: 25px; 
-   width: 100px;
-   
+   width: 100px;  
 }
-
 .link2:hover {
     width: 25px;
     height: 25px;
 }
 .link2{
     width: 25px;
-    height: 25px;
+    height: 25px;   
+}
+.item{
+    width: 16.667px;
+    height: 16.88px;
+    flex-shrink: 0;
+   
+}
+.titre0{
     
+font-family: SF Pro Text;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
 }
 
-.item{
-    width: 16px;
-    height: 16px;
+.times{
+    display: flex;
+    gap: 3px;   
 }
 
 .htagColor{
-    position: relative;
-    left: 4px;
-    color: #707476; 
+    color: #6E767D;
+font-family: SF Pro Text;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
 }
+.titreab{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    line-height: 1px; 
+}
+.follow1{
+    display: flex;
+    gap: 15px;
+}
+.button2{
+    color: #0F1419;
+    position: relative;
+    top: 60px;
+    font-family: SF Pro Text;
+    font-size: 14px;
+    font-style: normal;
+    border-radius: 15px;
+}
+.follow2{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
 
 
 

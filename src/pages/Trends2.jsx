@@ -53,17 +53,15 @@ function Trends2() {
           </h3>
         </div>
       </div>
-      <div>
-        <div className="div2">
-          <div className="from">{item.from}</div>
-          <div>{item.point} </div>
-        </div>
-        <span className="htag">{item.htag}</span>
+      <div className="div2">
+        <div className="from">{item.from}</div>
+        <div>{item.point} </div>
       </div>
+      <span className="htag">{item.htag}</span>
+
       <div className="from1">{item.number}</div>
-      <div>
-        <button className=" color1">{item.guide}</button>
-      </div>
+
+      <button className=" color1">{item.guide}</button>
     </div>
   ));
 

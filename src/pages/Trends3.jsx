@@ -30,27 +30,28 @@ const followLists = [
     button: "follow",
     avatar: Profil2,
     htag: "@Twitter",
-    title2: "TWItter",
+    title2: "Twitter",
   },
 ];
 
 function Trends3() {
   const followList = followLists.map((item) => (
-    <div className="follow2">
-      <div className="follow0">
-        <h3>{item.title} </h3>
-      </div>
-      <div className="follow1">
-        <img className="profil2" src={item.logo} alt="" />
-
+    <div>
+      <div className="follow2">
         <div>
-          <div className="times">
-            <div>{item.title2}</div>
-            <div>
-              <img className="item" src={item.avatar} alt="" />
+          <div className="follow0">
+            <h3>{item.title} </h3>
+          </div>
+          <div className="follow1">
+            <img className="profil2" src={item.logo} alt="" />
+            <div className="titreab">
+              <div className="times">
+                <div className="titre0">{item.title2}</div>
+                <img className="item" src={item.avatar} alt="" />
+              </div>
+              <div className="htagColor">{item.htag}</div>
             </div>
           </div>
-          <div className="htagColor">{item.htag}</div>
         </div>
         <div>
           <button className="button2">{item.button} </button>
