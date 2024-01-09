@@ -638,17 +638,14 @@ line-height: normal;
     gap: 15px;
 }
 .button2{
-    color: #0F1419;
     position: relative;
-    top: 60px;
+    left: 245px;
+    top: -40px;
+    color: #0F1419;
     font-family: SF Pro Text;
-    font-size: 14px;
     font-style: normal;
     border-radius: 15px;
-}
-.follow2{
-    display: flex;
-    justify-content: space-between;
+  
 }
 
 
