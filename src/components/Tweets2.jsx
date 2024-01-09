@@ -5,47 +5,45 @@ import Photo6 from "../images/Retweet.png";
 import Photo7 from "../images/React.png";
 import Photo8 from "../images/Buton.png";
 
-function Tweets2() {
-  const [count, setCount] = useState(0);
+const Tweets2 = () => {
+  const [count1, setCount1] = useState(0);
+  const [count2, setCount2] = useState(0);
+  const [count3, setCount3] = useState(0);
 
-  const toggleCount = () => {
-    if (count === 0) {
-      setCount(count + 1);
-    } else {
-      setCount(count - 1);
-    }
-  };
+  const incrementCount1 = () => setCount1(count1 + 1);
+  const incrementCount2 = () => setCount2(count2 + 1);
+  const incrementCount3 = () => setCount3(count3 + 1);
 
   return (
     <div>
       <div className="tweet-actions">
         <div className="tweet-act1">
-          <button className="tweet-action1" onClick={toggleCount}>
+          <button className="tweet-action1" onClick={incrementCount1}>
             <div>
               <img src={Photo5} alt="" />
             </div>
             <div>
-              <p>{count} </p>
+              <p> {count1} </p>
             </div>
           </button>
         </div>
         <div className="tweet-act2">
-          <button className="tweet-action2" onClick={toggleCount}>
+          <button className="tweet-action2" onClick={incrementCount2}>
             <div>
               <img src={Photo6} alt="" />
             </div>
             <div>
-              <p>{count}</p>
+              <p>{count2} </p>
             </div>
           </button>
         </div>
         <div className="tweet-act">
-          <button className="tweet-action3" onClick={toggleCount}>
+          <button className="tweet-action3" onClick={incrementCount3}>
             <div>
               <img src={Photo7} alt="" />
             </div>
             <div>
-              <p>{count}</p>
+              <p> {count3} </p>
             </div>
           </button>
         </div>
@@ -55,6 +53,6 @@ function Tweets2() {
       </div>
     </div>
   );
-}
+};
 
 export default Tweets2;
