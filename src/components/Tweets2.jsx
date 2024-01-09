@@ -10,9 +10,28 @@ const Tweets2 = () => {
   const [count2, setCount2] = useState(0);
   const [count3, setCount3] = useState(0);
 
-  const incrementCount1 = () => setCount1(count1 + 1);
-  const incrementCount2 = () => setCount2(count2 + 1);
-  const incrementCount3 = () => setCount3(count3 + 1);
+  const incrementCount1 = () => {
+    if (count1 === 0) {
+      setCount1(count1 + 1);
+    } else {
+      setCount1(count1 - 1);
+    }
+  };
+
+  const incrementCount2 = () => {
+    if (count2 === 0) {
+      setCount2(count2 + 1);
+    } else {
+      setCount2(count2 - 1);
+    }
+  };
+  const incrementCount3 = () => {
+    if (count3 === 0) {
+      setCount3(count3 + 1);
+    } else {
+      setCount3(count3 - 1);
+    }
+  };
 
   return (
     <div>
