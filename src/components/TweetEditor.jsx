@@ -8,14 +8,14 @@ import icon5 from "../images/Schedule.png";
 
 function TweetEditor() {
   return (
-    <div className="flex flex items-start flex justify-start gap-20 py-12 px-4 border-b border-b-1 border-b-solid border-b-#2F3336">
+    <div className="tweet-editor">
       <aside className="avatar">
         <img src={avatar} alt="" />
       </aside>
 
-      <div className="flex-auto">
+      <div className="tweet-editor-form">
         <input
-          className="h-60 w-full border-none outline-none text-1.3rem bg-black text-white resize-none pt-10 my-13     "
+          className="tweet-editor-input"
           type="text"
           placeholder="What's happening?"
         />
