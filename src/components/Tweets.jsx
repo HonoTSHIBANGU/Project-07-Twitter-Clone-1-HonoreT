@@ -37,26 +37,26 @@ const tweets = [
 
 function Tweets() {
   const ht = tweets.map((item) => (
-    <div className="tweets">
-      <div className="tweet">
-        <div className="tweet-avatar">
+    <div>
+      <div className="flex justify-start items-start gap-20 p-6 p-4 border-b border-[1px] border-solid border-[#2F3336]">
+        <div className="flex-shrink-0 flex-grow-0 w-70">
           {item.imageSrc && <img src={item.imageSrc} alt="" />}
         </div>
-        <div className="tweet-content">
-          <div className="tweet-body">
-            <div className="tweet-title">
-              <div className="tweet-title-author">
+        <div className="flex flex-col items-start justify-start gap-30 w-full ">
+          <div className="flex flex-col m-2">
+            <div className="flex justify-start gap-10 text-base">
+              <div className="text-base">
                 <p>{item.autor}</p>
               </div>
-              <div className="tweet-title-details">
+              <div className="bg-gray-700">
                 <img src={item.authorAvatarSrc} alt="" />
               </div>
-              <div className="tweet-title-details">
+              <div className="bg-gray-700">
                 <p>{item.autorDetail}</p>
               </div>
             </div>
             <p>{item.tweetText}</p>
-            <div className="tweet-image">
+            <div className="w-full pt-3 pl-0 pr-0 pb-0 ">
               {item.Image && <img src={item.Image} alt="" />}
             </div>
           </div>
