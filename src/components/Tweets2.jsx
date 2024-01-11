@@ -35,7 +35,7 @@ const Tweets2 = () => {
 
   return (
     <div>
-      <div className="tweet-actions">
+      <div className="flex justify-center items-center gap-20 text-base">
         <div className="tweet-act1">
           <button className="tweet-action1" onClick={incrementCount1}>
             <div>

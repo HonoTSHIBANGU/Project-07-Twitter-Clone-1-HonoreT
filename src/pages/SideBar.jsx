@@ -1,11 +1,10 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
 import SideBarTop from "./SideBarTop";
 import SideBarBotton from "./SideBarBotton";
 
 function SideBar() {
   return (
-    <div className="left-sidebar">
+    <div className="sticky w-275px top-4 h-full left-20 ml-10   ">
       <SideBarTop />
       <SideBarBotton />
     </div>

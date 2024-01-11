@@ -8,26 +8,32 @@ import icon5 from "../images/Schedule.png";
 
 function TweetEditor() {
   return (
-    <div className="tweet-editor">
-      <aside className="avatar">
-        <img src={avatar} alt="" />
+    <div className="flex items-start justify-start gap-16 p-3 border-b border-solid border-gray-700">
+      <aside>
+        <img
+          className="h-16 w-16 rounded-full relative left-2 top-5 "
+          src={avatar}
+          alt=""
+        />
       </aside>
 
-      <div className="tweet-editor-form">
+      <div className="flex-auto ">
         <input
-          className="tweet-editor-input"
+          className="h-37 w-full border-none outline-none text-1.3rem bg-black text-white resize-none pt-10 pr-0 pb-0 pl-0 mt-13 mb-0"
           type="text"
           placeholder="What's happening?"
         />
-        <div className="tweet-editor-buttons">
-          <div className="tweet-editor-actions">
+        <div className="flex items-center justify-between">
+          <div className="flex items-center justify-start gap-4">
             <img src={icon1} alt="" />
             <img src={icon2} alt="" />
             <img src={icon3} alt="" />
             <img src={icon4} alt="" />
             <img src={icon5} alt="" />
           </div>
-          <div className="button">Tweet</div>
+          <button className="capitalize px-3 py-0.5 border-none rounded-full bg-blue-500 text-white text-lg">
+            <span>Tweet</span>
+          </button>
         </div>
       </div>
     </div>
