@@ -284,7 +284,7 @@ body {
     text-decoration: none;
     color: white;
 } 
-
+/* 
 .bouton-tweet {
 display: flex;
 width: 225px;
@@ -296,9 +296,9 @@ flex-shrink: 0;
 border-radius: 60px;
 background-color: #1D9BF0;
 color: whitesmoke;
-} 
+}  */
 
- .profile-body{
+ /* .profile-body{
 width: 40px;
 height: 40px;
 flex-shrink: 0;
@@ -306,18 +306,18 @@ border-radius: 40px;
 border: 1px solid #000;
 color: #D9D9D9;
 background-color: #000;
-} 
+}  */
 
-.text {
+/* .text {
 color: #D9D9D9;
 font-family: SF Pro Text;
 font-size: 15px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
-} 
+}  */
 
-.textContent{
+/* .textContent{
 
     color: #6E767D;
 font-family: SF Pro Text;
@@ -325,25 +325,25 @@ font-size: 15px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
-} 
+}  */
 
-.textDiv{
+/* .textDiv{
     display: flex;
     flex-direction: column;
     gap: 1px;
     line-height: 1px;   
-} 
+}  */
 
- .imageText{
+ /* .imageText{
     display: flex;
     gap: 15px;
-} 
+}  */
 
-.conteneur :hover{
+/* .conteneur :hover{
     background-color: rgb(131, 112, 87);
     border-radius: 60px;
     
-} 
+}  */
 
 .settings{
 display: flex;
@@ -474,13 +474,13 @@ height: 40px;
    top: 25px;
  }
 
-.footer{
+/* .footer{
     display: flex;
     flex-direction: column;
     gap: 100px;
     position: relative;
     top: 30px;
-} 
+}  */
 .likes{
     display: flex;
     justify-content: space-between;
@@ -538,13 +538,13 @@ padding: 12px;
     color: #707476;   
 }
 
-.div2{
+/* .div2{
     display: flex;
     justify-content: space-between; 
     gap: 15px;   
     position: relative;
     right: 10px;  
-} 
+}  */
 
 .img2{
     width: 14px;
