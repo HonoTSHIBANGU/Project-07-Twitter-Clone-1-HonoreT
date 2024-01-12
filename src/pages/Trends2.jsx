@@ -42,26 +42,27 @@ const trendsLists = [
 
 function Trends2() {
   const trendslist = trendsLists.map((item) => (
-    <div className="background2">
-      <div className="trendTitle">
-        <div className="title2">
-          <h3>{item.title}</h3>
-        </div>
-        <div className="img2">
-          <h3>
-            <img src={item.img} alt="" />
-          </h3>
+    <div className=" ">
+      <div className="flex justify-between ml-2 ">
+        <h3 className="p-2">{item.title}</h3>
+        <div>
+          <img className="mr-3 relative top-2" src={item.img} alt="" />
         </div>
       </div>
-      <div className="div2">
-        <div className="from">{item.from}</div>
-        <div>{item.point} </div>
+
+      <div className="flex justify-between">
+        <p className="from">{item.from}</p>
+        <p className="relative mr-4">{item.point} </p>
       </div>
-      <span className="htag">{item.htag}</span>
+      <p>
+        <span className="relative ml-6  ">{item.htag}</span>
+      </p>
 
-      <div className="from1">{item.number}</div>
+      <p className="relative text-gray-500 ml-6 ">{item.number}</p>
 
-      <button className=" color1">{item.guide}</button>
+      <button className="text-blue-500 bg-transparent ml-6 m-2 font-bold ">
+        {item.guide}
+      </button>
     </div>
   ));
 

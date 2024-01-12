@@ -6,7 +6,7 @@ import Trends4 from "./Trends4";
 
 function Trends() {
   return (
-    <div className="t-trend">
+    <div className="flex flex-col gap-3 relative  mr-10">
       <div className="t-trend1">
         <Trends1 />
       </div>

@@ -521,8 +521,7 @@ padding: 12px;
     color: #707476; 
     margin-left: 20px;   
 }
-.color1{
-    color: rgb(56, 56, 207);  
+/* .color1{
     margin-left: 20px; 
     position: relative; 
     color: #1D9BF0;
@@ -530,13 +529,12 @@ padding: 12px;
     border: none;
     font-size: 15px;
     margin: 10px;  
-
-}
-.from1{
+} */
+/* .from1{
     position: relative;
     left: 15px;
     color: #707476;   
-}
+} */
 
 /* .div2{
     display: flex;
@@ -544,7 +542,7 @@ padding: 12px;
     gap: 15px;   
     position: relative;
     right: 10px;  
-}  */
+}   */
 
 .img2{
     width: 14px;
@@ -552,25 +550,26 @@ padding: 12px;
     position: relative;
     right: 15px;   
 }
-.trendTitle{
+/* .trendTitle{
 display: flex;
 justify-content: space-between;
 margin-left:  10px;
 position: relative;
 top: px;
-}
+} */
 
-.htag{
+/* .htag{
     position: relative;
     left: 13px;
-}
-.t-trend{
+    color: #707476;
+} */
+/* .t-trend{
     display: flex;
     flex-direction: column;
     gap: 5px;
     position: relative;
     margin-right: 40px;   
-}
+} */
 
 .t-trend2{
     background-color: #2F3336;
@@ -636,10 +635,11 @@ line-height: normal;
     gap: 1px;
     line-height: 1px; 
 }
-.follow1{
+/* .follow1{
     display: flex;
     gap: 15px;
-}
+    
+} */
 .button2{
     position: relative;
     left: 245px;

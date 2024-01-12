@@ -37,25 +37,21 @@ const followLists = [
 function Trends3() {
   const followList = followLists.map((item) => (
     <div>
-      <div className="follow2">
-        <div>
-          <div className="follow0">
-            <h3>{item.title} </h3>
-          </div>
-          <div className="follow1">
-            <img className="profil2" src={item.logo} alt="" />
-            <div className="titreab">
-              <div className="times">
-                <div className="titre0">{item.title2}</div>
-                <img className="item" src={item.avatar} alt="" />
-              </div>
-              <div className="htagColor">{item.htag}</div>
+      <div className="">
+        <div className="p-4 ml-3 font-bold">
+          <h3>{item.title} </h3>
+        </div>
+        <div className="flex gap-3 ml-3">
+          <img className="profil2" src={item.logo} alt="" />
+          <div className="titreab">
+            <div className="times">
+              <div className="titre0">{item.title2}</div>
+              <img className="item" src={item.avatar} alt="" />
             </div>
+            <div className="htagColor">{item.htag}</div>
           </div>
         </div>
-        <div>
-          <button className="button2">{item.button} </button>
-        </div>
+        <button className="button2">{item.button} </button>
       </div>
       <div>
         <button className="show">
