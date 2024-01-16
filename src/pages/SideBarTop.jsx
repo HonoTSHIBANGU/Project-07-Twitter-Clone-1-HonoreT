@@ -19,7 +19,7 @@ const navItems = [
   { logo: Messages, title: "Messages", link: "/message" },
   { logo: Bookmarks, title: "Bookmarks", link: "/bookmark" },
   { logo: Listes, title: "Listes", link: "/liste" },
-  { logo: Profil, title: "Profile", link: "/Username" },
+  { logo: Profil, title: "Profile", link: "/profil" },
   { logo: More, title: "More", link: "/more" },
 ];
 

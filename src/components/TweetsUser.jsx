@@ -5,7 +5,7 @@ import Photo12 from "../images/tweet-image.png";
 import Photo11 from "../images/Tweet-Profile-Photo.svg";
 import Photo13 from "../images/hh.jpg";
 import Photo14 from "../images/Profile-Photo3.png";
-import { users } from "../model/user";
+import users from "../model/user";
 
 function TweetsUser() {
   const tweetUsers = users.map((item) => (

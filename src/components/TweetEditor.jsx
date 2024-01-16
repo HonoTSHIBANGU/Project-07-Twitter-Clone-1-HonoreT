@@ -1,10 +1,11 @@
 import React from "react";
-import avatar from "../images/hh.jpg";
+import avatar from "../images/Group.png";
 import icon1 from "../images/img.png";
 import icon2 from "../images/Gif.png";
 import icon3 from "../images/Poll.png";
 import icon4 from "../images/Emoji.png";
 import icon5 from "../images/Schedule.png";
+import userPerso from "../model/userPerso.js";
 
 function TweetEditor() {
   return (
@@ -12,7 +13,7 @@ function TweetEditor() {
       <aside>
         <img
           className="h-16 w-16 rounded-full relative left-2 top-5 "
-          src={avatar}
+          src={userPerso.imageSrc}
           alt=""
         />
       </aside>

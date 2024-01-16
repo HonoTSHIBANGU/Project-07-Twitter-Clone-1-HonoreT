@@ -5,7 +5,7 @@ import Photo11 from "../images/Tweet-Profile-Photo.svg";
 import Photo13 from "../images/hh.jpg";
 import Photo14 from "../images/Profile-Photo3.png";
 
-export const users = [
+ const users = [
     {id:0,
       autor: "CNN",
       autorDetail: "@CNN",
@@ -28,3 +28,4 @@ export const users = [
       authorAvatarSrc: Photo10,
     },
   ];
+  export default users

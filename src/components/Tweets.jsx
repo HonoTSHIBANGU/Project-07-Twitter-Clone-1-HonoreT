@@ -9,7 +9,7 @@ import Photo13 from "../images/hh.jpg";
 import Photo14 from "../images/Profile-Photo3.png";
 import { tweets } from "../model/tweet.js";
 import TweetsUser from "../components/TweetsUser.jsx";
-import { users } from "../model/user.js";
+import users from "../model/user.js";
 import { TweetContext } from "../pages/useTweet.jsx";
 import TweetEditor from "./TweetEditor.jsx";
 import Home from "../pages/home.jsx";
@@ -23,7 +23,7 @@ function Tweets() {
         {/* <TweetsUser /> */}
         <div className="flex justify-start items-start gap-1.5 p-6 p-4 border-b border-[1px] border-solid border-[#2F3336]">
           <div className="flex-shrink-0 flex-grow-0 w-16 h-16 ">
-            <Link to="/">
+            <Link to={`/${user.autor}`}>
               {user.imageSrc && <img src={user.imageSrc} alt="" />}
             </Link>
           </div>

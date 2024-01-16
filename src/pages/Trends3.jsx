@@ -4,6 +4,7 @@ import Profil1 from "../images/Profile-Photo2.png";
 import Profil2 from "../images/Group.png";
 import Profil3 from "../images/tweet-profile-photo.png";
 import Profil4 from "../images/Profile-Photo3.png";
+import users from "../model/user";
 
 const followLists = [
   {
@@ -34,7 +35,7 @@ function Trends3() {
     <div className="flex flex-col  ">
       <div className="">
         <div className="flex gap-3 ">
-          <Link to="/">
+          <Link to={`/${users.autor}`}>
             <img className="profil2" src={item.logo} alt="" />
           </Link>
           <div className="titreab">

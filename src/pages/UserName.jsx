@@ -1,5 +1,6 @@
 import React from "react";
 import Photo from "../images/hh.jpg";
+import userPerso from "../model/userPerso.js";
 
 function Username() {
   return (
@@ -7,10 +8,10 @@ function Username() {
       <div className="">
         <img
           className="w-60 h-60 rounded-full relative right-60 top-40"
-          src={Photo}
+          src={userPerso.imageSrc}
           alt=""
         />
-        <h3 className="relative right-60 top-60">TSHIBANGU Honoré</h3>
+        <h3 className="relative right-60 top-60">{userPerso.autor} </h3>
       </div>
     </div>
   );

@@ -1,6 +1,7 @@
 import React from "react";
 import Photo from "../images/hh.jpg";
 import Photo1 from "../images/ht.png";
+import userPerso from "../model/userPerso.js";
 
 const sideBarBotton = [
   {
@@ -24,7 +25,7 @@ function SideBarBotton() {
           <div className="flex gap-2 ">
             <img
               className="w-16 h-16 flex-shrink-0 rounded-full border border-solid border-black gray-300 bg-black   "
-              src={item.ProfilePhoto}
+              src={userPerso.imageSrc}
               alt=""
             />
 
