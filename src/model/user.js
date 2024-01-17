@@ -4,6 +4,7 @@ import Photo12 from "../images/tweet-image.png";
 import Photo11 from "../images/Tweet-Profile-Photo.svg";
 import Photo13 from "../images/hh.jpg";
 import Photo14 from "../images/Profile-Photo3.png";
+import coverPhotoCNN from "../images/photoDecouvertureCNN.jpg";
 
  const users = [
     {id:0,
@@ -12,6 +13,15 @@ import Photo14 from "../images/Profile-Photo3.png";
       imageSrc: Photo9,
       Image: false,
       authorAvatarSrc: Photo10,
+      description: "it's our job #Gothere & tell the most difficult stories, For breaking news, follow @CNNBRK and download our app cnn.com/apps ",
+      languageTradiction: "Traduire la biographie",
+      dateOfInscription: " A rejoint Twitter en février 2007",
+      numberOfSubscriptions: "1086 abonnements",
+      NumberOfSubscribers: "62 M abonnés",
+      followedBy: "suivi par Theodore et Ghyslain",
+      coverPhoto: coverPhotoCNN,
+      tweetText:
+        'President Joe Biden touted a new agreement reached with the European Union to ease Trump-era tariffs on aluminum and steel as a "major breakthrough" that would serve to both strengthen the US steel industry and combat the global climate crisis.',
     },
     {id:1,
       autor: "The New York Times",
@@ -19,6 +29,8 @@ import Photo14 from "../images/Profile-Photo3.png";
       imageSrc: Photo11,
       Image: Photo12,
       authorAvatarSrc: Photo10,
+      tweetText:
+        "Gardening boomed during the pandemic. Six Black writers share how it has helped them re-establish, and reimagine, a connection to cultivation and the land.",
     },
     {id:2,
       autor: "Twitter",
@@ -26,6 +38,7 @@ import Photo14 from "../images/Profile-Photo3.png";
       imageSrc: Photo14,
       Image: Photo13,
       authorAvatarSrc: Photo10,
+      tweetText: "BIG NEWS lol jk still Twitter.",
     },
   ];
   export default users

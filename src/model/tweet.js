@@ -1,4 +1,4 @@
-export const tweets = [
+ const tweets = [
     {
       id: 0,
       userId: 0,
@@ -16,3 +16,5 @@ export const tweets = [
         tweetText: "BIG NEWS lol jk still Twitter.",
     },
   ];
+
+  export default tweets
