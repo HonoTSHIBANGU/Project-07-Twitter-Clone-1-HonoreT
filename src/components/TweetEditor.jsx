@@ -1,21 +1,24 @@
 import React from "react";
-import avatar from "../images/Group.png";
+
 import icon1 from "../images/img.png";
 import icon2 from "../images/Gif.png";
 import icon3 from "../images/Poll.png";
 import icon4 from "../images/Emoji.png";
 import icon5 from "../images/Schedule.png";
 import userPerso from "../model/userPerso.js";
+import { Link } from "react-router-dom";
 
 function TweetEditor() {
   return (
     <div className="flex items-start justify-start gap-16 p-3 border-b border-solid border-gray-700">
       <aside>
-        <img
-          className="h-16 w-16 rounded-full relative left-2 top-5 "
-          src={userPerso.imageSrc}
-          alt=""
-        />
+        <Link to="/Profil">
+          <img
+            className="h-16 w-16 rounded-full relative left-2 top-5 "
+            src={userPerso.imageSrc}
+            alt=""
+          />
+        </Link>
       </aside>
 
       <div className="flex-auto ">

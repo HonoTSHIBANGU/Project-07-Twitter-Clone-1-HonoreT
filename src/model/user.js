@@ -1,4 +1,4 @@
-import Photo9 from "../images/tweet-profile-photo.png";
+import Photo0 from "../images/profilcnn2.jpg";
 import Photo10 from "../images/Group.png";
 import Photo12 from "../images/tweet-image.png";
 import Photo11 from "../images/Tweet-Profile-Photo.svg";
@@ -12,7 +12,7 @@ import coverPhotoTimes from "../images/newYorkTimes.jpg";
     {id:0,
       autor: "CNN",
       autorDetail: "@CNN",
-      imageSrc: Photo9,
+      imageSrc: Photo0,
       Image: false,
       authorAvatarSrc: Photo10,
       description: "it's our job #Gothere & tell the most difficult stories, For breaking news, follow @CNNBRK and download our app cnn.com/apps ",

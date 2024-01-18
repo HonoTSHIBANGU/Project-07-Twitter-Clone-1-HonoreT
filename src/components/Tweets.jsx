@@ -23,7 +23,9 @@ function Tweets() {
         <div className="flex justify-start items-start gap-1.5 p-6 p-4 border-b border-[1px] border-solid border-[#2F3336]">
           <div className="flex-shrink-0 flex-grow-0 w-16 h-16 ">
             <Link to={`/${user.autor}`}>
-              {user.imageSrc && <img src={user.imageSrc} alt="" />}
+              {user.imageSrc && (
+                <img className="rounded-full" src={user.imageSrc} alt="" />
+              )}
             </Link>
           </div>
 
