@@ -7,9 +7,11 @@ import Photo8 from "../images/Buton.png";
 
 const Tweets2 = () => {
   const [count1, setCount1] = useState(0);
+  const [hover1, setHover1] = useState(false);
   const [count2, setCount2] = useState(0);
+  const [hover2, setHover2] = useState(false);
   const [count3, setCount3] = useState(0);
-  const [liked, setLiked] = React.useState(false);
+  const [hover3, setHover3] = useState(false);
 
   const incrementCount1 = () => {
     if (count1 === 0) {
@@ -27,24 +29,26 @@ const Tweets2 = () => {
   };
 
   const incrementCount3 = () => {
-    if (liked) {
+    if (count3 === 0) {
       setCount3(count3 + 1);
-      setLiked(false);
     } else {
       setCount3(count3 - 1);
-      setLiked(true);
     }
   };
 
   return (
-    <div className="">
+    <div>
       <div className="flex justify-center items-center gap-20 text-base">
         <div className="tweet-act1">
           <button className="tweet-action1" onClick={incrementCount1}>
             <div>
               <img src={Photo5} alt="" />
             </div>
-            <div>
+            <div
+              onMouseEnter={() => setHover1(true)}
+              onMouseLeave={() => setHover1(false)}
+              style={{ color: hover1 ? "green" : "white" }}
+            >
               <p> {count1} </p>
             </div>
           </button>
@@ -54,22 +58,26 @@ const Tweets2 = () => {
             <div>
               <img src={Photo6} alt="" />
             </div>
-            <div>
+            <div
+              onMouseEnter={() => setHover2(true)}
+              onMouseLeave={() => setHover2(false)}
+              style={{ color: hover2 ? "yellow" : "white" }}
+            >
               <p>{count2} </p>
             </div>
           </button>
         </div>
         <div className="tweet-act">
-          <button
-            className="tweet-action3"
-            onClick={incrementCount3}
-            style={{ color: liked ? "red" : "blue" }}
-          >
+          <button className="tweet-action3" onClick={incrementCount3}>
             <div>
               <img src={Photo7} alt="" />
             </div>
-            <div>
-              <p> {count3} </p>
+            <div
+              onMouseEnter={() => setHover3(true)}
+              onMouseLeave={() => setHover3(false)}
+              style={{ color: hover3 ? "red" : "white" }}
+            >
+              <p>{count3}</p>
             </div>
           </button>
         </div>

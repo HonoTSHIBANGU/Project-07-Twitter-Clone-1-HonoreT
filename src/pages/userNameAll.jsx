@@ -1,9 +1,10 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import users from "../model/user.js";
-import tweet from "../model/tweet.js";
+import tweet from "../model/Tweet.js";
 import backIcone from "../images/backicone2.jpeg";
 import { Link } from "react-router-dom";
+
 function UserNameAll() {
   const { username } = useParams("username");
 
@@ -37,6 +38,16 @@ function UserNameAll() {
       <div className="relative bottom-28 left-6 w-40 h-20">
         <img src={oneData.imageSrc} alt="" />
       </div>
+      <div className=" flex gap-20  relative bottom-20 ml-80 ">
+        <div>
+          <button className="relative left-60 ">{oneData.button2}</button>
+        </div>
+        <div className=" ">
+          <button className="w-20   relative left-60  rounded-full ">
+            {oneData.button1}
+          </button>
+        </div>
+      </div>
       <div className="flex gap-3 relative bottom-4 left-3">
         <h1 className="text-lg font-bold">{oneData.autor}</h1>
 
@@ -66,7 +77,12 @@ function UserNameAll() {
         <div>{oneData.NumberOfSubscribers}</div>
       </div>
       <div className="relative top-4 left-3 text-gray-500">
-        {oneData.followedBy}{" "}
+        {oneData.followedBy}
+      </div>
+      <div>
+        <p className="flex gap-2 relative top-14 left-3 ">
+          {oneData.tweetText}
+        </p>
       </div>
     </div>
   );

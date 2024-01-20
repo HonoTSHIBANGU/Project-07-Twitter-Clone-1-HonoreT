@@ -24,6 +24,9 @@ import coverPhotoTimes from "../images/newYorkTimes.jpg";
       coverPhoto: coverPhotoCNN,
       tweetText:
         'President Joe Biden touted a new agreement reached with the European Union to ease Trump-era tariffs on aluminum and steel as a "major breakthrough" that would serve to both strengthen the US steel industry and combat the global climate crisis.',
+        button: "follow",
+        button1: "suivre",
+      button2: "...",
     },
     {id:1,
       autor: "The New York Times",
@@ -40,6 +43,9 @@ import coverPhotoTimes from "../images/newYorkTimes.jpg";
       coverPhoto: coverPhotoTimes,
       tweetText:
         "Gardening boomed during the pandemic. Six Black writers share how it has helped them re-establish, and reimagine, a connection to cultivation and the land.",
+        button: "follow",
+        button1: "suivre",
+        button2: "...",
     },
     {id:2,
       autor: "Twitter",
@@ -47,7 +53,17 @@ import coverPhotoTimes from "../images/newYorkTimes.jpg";
       imageSrc: Photo14,
       Image: Photo13,
       authorAvatarSrc: Photo10,
+      description: "it's our job #Gothere & tell the most difficult stories, For breaking news, follow @CNNBRK and download our app cnn.com/apps ",
+      languageTradiction: "Traduire la biographie",
+      dateOfInscription: " A rejoint Twitter en février 2007",
+      numberOfSubscriptions: "1086 abonnements",
+      NumberOfSubscribers: "62 M abonnés",
+      followedBy: "suivi par .............",
+      coverPhoto: coverPhotoTimes,
       tweetText: "BIG NEWS lol jk still Twitter.",
+      button: "follow",
+      button1: "suivre",
+      button2: "...",
     },
   ];
   export default users

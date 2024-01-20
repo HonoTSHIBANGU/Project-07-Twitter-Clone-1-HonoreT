@@ -222,10 +222,10 @@ body {
     outline: none;
 }
 
-.tweet-act2:hover {
+/* .tweet-act2:hover {
     background-color: rgb(24, 88, 157);  
     border-radius: 40px;
-}
+} */
 
 .tweet-action3 {
     display: flex;
@@ -238,17 +238,17 @@ body {
     outline: none;   
 }
 
-.tweet-act:hover {
+/* .tweet-act:hover {
     background-color: rgb(242, 70, 7);  
     border-radius: 40px;
-} 
+}  */
 
-.tweet-act1:hover {
+/* .tweet-act1:hover {
     background-color: rgb(123, 183, 141);  
     border-radius: 40px;
     overflow-clip-margin: content-box;
     overflow: hidden;
-}
+} */
 .tweet-action4 {
     display: flex;
     align-items: center;
@@ -256,10 +256,10 @@ body {
     gap: 20px;
 }
 
-.tweet-act4:hover {
+/* .tweet-act4:hover {
     background-color: rgb(222, 10, 109);  
     
-}
+} */
 
 .left-sidebar {
     position: sticky;

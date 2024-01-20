@@ -8,7 +8,7 @@ let usePerso = {id:4,
     imageSrc: PhotoPerso,
     Image: false,
     authorAvatarSrc: Photo10,
-    description: " ",
+    description: "`La révolution est arrivée ! Le monde va changer pour toujours. # ",
     languageTradiction: "Traduire la biographie",
     dateOfInscription: " A rejoint Twitter en février 2007",
     numberOfSubscriptions: "1086 abonnements",
@@ -17,6 +17,9 @@ let usePerso = {id:4,
     coverPhoto: Photo11,
     tweetText:
         "Gardening boomed during the pandemic. Six Black writers share how it has helped them re-establish, and reimagine, a connection to cultivation and the land.",
+    button1: "suivre",
+    button2: "...",
+
   }
 
   export default usePerso
