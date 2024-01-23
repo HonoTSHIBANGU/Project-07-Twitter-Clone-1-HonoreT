@@ -1,17 +1,17 @@
 import Layout from "./components/layout.jsx";
-import Home from "./pages/home.jsx";
-import { UserContext } from "./model/MyContext.js";
-import Tweet from "./model/user.js";
+import Home from "./pages/Home.jsx";
+import Tweet from "./model/Tweet.js";
+import TweetProvider from "./contexte/TweetProvider.jsx";
 
 import("./style/reset.css");
 import("./style/App.css");
 
 export default function App() {
   return (
-    <UserContext.Provider value={Tweet}>
+    <TweetProvider>
       <Layout>
         <Home />
       </Layout>
-    </UserContext.Provider>
+    </TweetProvider>
   );
 }

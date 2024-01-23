@@ -7,9 +7,7 @@ function Layout({ children }) {
   return (
     <>
       <SideBar />
-
       <Outlet />
-
       <Trends />
     </>
   );

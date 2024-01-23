@@ -31,8 +31,8 @@ import users from "../model/user";
 // ];
 
 function Trends3() {
-  const followList = users.map((item) => (
-    <div className="flex flex-col  ">
+  const followList = users.map((item, i) => (
+    <div className="flex flex-col  " key={i}>
       <div className="">
         <div className="flex gap-3 ">
           <Link to={`/${item.autor}`}>

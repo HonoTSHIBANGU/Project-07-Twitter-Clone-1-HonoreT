@@ -2,7 +2,7 @@ import React from "react";
 import Photo from "../images/hh.jpg";
 import userPerso from "../model/userPerso.js";
 import backIcone from "../images/backicone2.jpeg";
-import home from "../pages/home.jsx";
+import home from "./Home.jsx";
 import { Link } from "react-router-dom";
 
 function Username() {

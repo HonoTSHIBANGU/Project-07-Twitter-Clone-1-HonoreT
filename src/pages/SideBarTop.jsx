@@ -24,15 +24,15 @@ const navItems = [
 ];
 
 function SideBarTop() {
-  const topBar = navItems.map((item) => (
-    <div className="p-3">
+  const topBar = navItems.map((item, i) => (
+    <div className="p-3" key={i}>
       <NavLink to={item.link}>
-        <div className="flex gap-8 ">
-          <div className>
+        <div className="flex gap-8">
+          <div>
             <img src={item.logo} alt="" />
           </div>
           <div>
-            <p className="">{item.title}</p>
+            <p>{item.title}</p>
           </div>
         </div>
       </NavLink>

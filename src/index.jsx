@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Home from "./pages/home.jsx";
+import Home from "./pages/Home.jsx";
 import Profil from "./pages/UserName.jsx";
 import Layout from "./components/layout.jsx";
 import UserNameAll from "./pages/userNameAll.jsx";

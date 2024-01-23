@@ -28,8 +28,8 @@ const trendsLists = [
 ];
 
 function Trends2() {
-  const trendslist = trendsLists.map((item) => (
-    <div className="flex flex-col p-2 ">
+  const trendslist = trendsLists.map((item, i) => (
+    <div className="flex flex-col p-2 " key={i}>
       <div className="flex justify-between ">
         <p className=" text-gray-500">{item.from} </p>
         <p>{item.point} </p>

@@ -12,7 +12,7 @@ import TweetsUser from "../components/TweetsUser.jsx";
 import users from "../model/user.js";
 
 import TweetEditor from "./TweetEditor.jsx";
-import Home from "../pages/home.jsx";
+import Home from "../pages/Home.jsx";
 
 function Tweets() {
   const ht = tweets.map((item) => {

@@ -8,8 +8,8 @@ const footerLists = [
 ];
 
 function Trends4(item) {
-  const footerList = footerLists.map((item) => (
-    <div className="other">
+  const footerList = footerLists.map((item, i) => (
+    <div className="other" key={i}>
       <p>{item.footerTitle} </p>
       <p>{item.copyright} </p>
     </div>
