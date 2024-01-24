@@ -22,8 +22,8 @@ import coverPhotoTimes from "../images/newYorkTimes.jpg";
       NumberOfSubscribers: "62 M abonnés",
       followedBy: "suivi par .............",
       coverPhoto: coverPhotoCNN,
-      tweetText:
-        'President Joe Biden touted a new agreement reached with the European Union to ease Trump-era tariffs on aluminum and steel as a "major breakthrough" that would serve to both strengthen the US steel industry and combat the global climate crisis.',
+      // tweetText:
+      //   'President Joe Biden touted a new agreement reached with the European Union to ease Trump-era tariffs on aluminum and steel as a "major breakthrough" that would serve to both strengthen the US steel industry and combat the global climate crisis.',
         button: "follow",
         button1: "suivre",
       button2: "...",
@@ -41,8 +41,8 @@ import coverPhotoTimes from "../images/newYorkTimes.jpg";
       NumberOfSubscribers: "62 M abonnés",
       followedBy: "suivi par .............",
       coverPhoto: coverPhotoTimes,
-      tweetText:
-        "Gardening boomed during the pandemic. Six Black writers share how it has helped them re-establish, and reimagine, a connection to cultivation and the land.",
+      // tweetText:
+      //   "Gardening boomed during the pandemic. Six Black writers share how it has helped them re-establish, and reimagine, a connection to cultivation and the land.",
         button: "follow",
         button1: "suivre",
         button2: "...",
@@ -60,7 +60,7 @@ import coverPhotoTimes from "../images/newYorkTimes.jpg";
       NumberOfSubscribers: "62 M abonnés",
       followedBy: "suivi par .............",
       coverPhoto: coverPhotoTimes,
-      tweetText: "BIG NEWS lol jk still Twitter.",
+      // tweetText: "BIG NEWS lol jk still Twitter.",
       button: "follow",
       button1: "suivre",
       button2: "...",

@@ -9,15 +9,15 @@ import React, { useContext, useState } from "react";
 import { TweetContext } from "../contexte/TweetProvider.jsx";
 
 function TweetEditor() {
-  const { tweetAdd, setTweetAdd } = useContext(TweetContext);
-  //console.log(tweetAdd);
+  const [tweetAdd, setTweetAdd] = useContext(TweetContext);
+  // console.log(tweetAdd);
   const [inputTweet, setInputTweet] = useState("");
 
   const addTweet = (inputT) => {
     if (inputT !== "") {
       const tweetPending = {
-        id: 1,
-        userId: 1,
+        id: 0,
+        userId: 0,
         tweetText: inputT,
       };
 
@@ -62,7 +62,7 @@ function TweetEditor() {
               <img src={icon5} alt="" />
             </div>
             <button
-              className="capitalize px-3 py-0.5 border-none rounded-full bg-blue-500 text-white text-lg"
+              className="capitalize px-3 py-0.5 border-none rounded-full bg-blue-500 text-white text-lg relative left-60"
               onClick={(e) => {
                 e.preventDefault();
                 button();

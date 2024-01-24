@@ -1,4 +1,5 @@
 import React, { useContext } from "react";
+import { TweetContext } from "../contexte/TweetProvider.jsx";
 import { Link } from "react-router-dom";
 import Tweets2 from "../components/Tweets2.jsx";
 import Photo9 from "../images/tweet-profile-photo.png";
@@ -15,7 +16,9 @@ import TweetEditor from "./TweetEditor.jsx";
 import Home from "../pages/Home.jsx";
 
 function Tweets() {
-  const ht = tweets.map((item) => {
+  const [tweetAdd, setTweetAdd] = useContext(TweetContext);
+  //console.log(tweetAdd);
+  const ht = tweetAdd.map((item) => {
     const user = users.find((user) => user.id === item.userId);
 
     return (

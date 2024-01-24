@@ -5,7 +5,7 @@ export const TweetContext = createContext();
 
 function TweetProvider({ children }) {
   const [tweetAdd, setTweetAdd] = useState(TweetList);
-  console.log(TweetList);
+
   return (
     <TweetContext.Provider value={{ tweetAdd, setTweetAdd }}>
       {children}
