@@ -6,7 +6,7 @@ import Photo13 from "../images/hh.jpg";
 import Photo14 from "../images/Profile-Photo3.png";
 import coverPhotoCNN from "../images/photoDecouvertureCNN.jpg";
 import coverPhotoTimes from "../images/newYorkTimes.jpg";
-import Photo1 from "../images/imgH.jpg"
+
 
  const users = [
 
