@@ -12,6 +12,7 @@ const Tweets2 = () => {
   const [hover2, setHover2] = useState(false);
   const [count3, setCount3] = useState(0);
   const [hover3, setHover3] = useState(false);
+  const [hover4, setHover4] = useState(false);
 
   const incrementCount1 = () => {
     if (count1 === 0) {
@@ -40,49 +41,75 @@ const Tweets2 = () => {
     <div>
       <div className="flex justify-center items-center gap-20 text-base">
         <div className="tweet-act1">
-          <button className="tweet-action1" onClick={incrementCount1}>
+          <button
+            onMouseEnter={() => setHover1(true)}
+            onMouseLeave={() => setHover1(false)}
+            style={{ color: hover1 ? "green" : "white" }}
+            className="tweet-action1"
+            onClick={incrementCount1}
+          >
             <div>
-              <img src={Photo5} alt="" />
+              <img
+                style={{ backgroundColor: hover1 ? "green" : "black" }}
+                src={Photo5}
+                alt=""
+              />
             </div>
-            <div
-              onMouseEnter={() => setHover1(true)}
-              onMouseLeave={() => setHover1(false)}
-              style={{ color: hover1 ? "green" : "white" }}
-            >
+            <div>
               <p> {count1} </p>
             </div>
           </button>
         </div>
         <div className="tweet-act2">
-          <button className="tweet-action2" onClick={incrementCount2}>
+          <button
+            onMouseEnter={() => setHover2(true)}
+            onMouseLeave={() => setHover2(false)}
+            style={{ color: hover2 ? "yellow" : "white" }}
+            className="tweet-action2"
+            onClick={incrementCount2}
+          >
             <div>
-              <img src={Photo6} alt="" />
+              <img
+                style={{ backgroundColor: hover2 ? "yellow" : "black" }}
+                src={Photo6}
+                alt=""
+              />
             </div>
-            <div
-              onMouseEnter={() => setHover2(true)}
-              onMouseLeave={() => setHover2(false)}
-              style={{ color: hover2 ? "yellow" : "white" }}
-            >
+            <div>
               <p>{count2} </p>
             </div>
           </button>
         </div>
         <div className="tweet-act">
-          <button className="tweet-action3" onClick={incrementCount3}>
+          <button
+            onMouseEnter={() => setHover3(true)}
+            onMouseLeave={() => setHover3(false)}
+            style={{ color: hover3 ? "red" : "white" }}
+            className="tweet-action3"
+            onClick={incrementCount3}
+          >
             <div>
-              <img src={Photo7} alt="" />
+              <img
+                style={{ backgroundColor: hover3 ? "red" : "black" }}
+                src={Photo7}
+                alt=""
+              />
             </div>
-            <div
-              onMouseEnter={() => setHover3(true)}
-              onMouseLeave={() => setHover3(false)}
-              style={{ color: hover3 ? "red" : "white" }}
-            >
+            <div>
               <p>{count3}</p>
             </div>
           </button>
         </div>
-        <div>
-          <img className="tweet-act4" src={Photo8} alt="" />
+        <div
+          onMouseEnter={() => setHover4(true)}
+          onMouseLeave={() => setHover4(false)}
+        >
+          <img
+            style={{ backgroundColor: hover4 ? "blue" : "black" }}
+            className="tweet-act4"
+            src={Photo8}
+            alt=""
+          />
         </div>
       </div>
     </div>

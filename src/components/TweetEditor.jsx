@@ -7,6 +7,7 @@ import userPerso from "../model/userPerso.js";
 import { Link } from "react-router-dom";
 import React, { useContext, useState } from "react";
 import { TweetContext } from "../contexte/TweetProvider.jsx";
+import photo from "../images/hh.jpg";
 
 function TweetEditor() {
   const [tweetAdd, setTweetAdd] = useContext(TweetContext);

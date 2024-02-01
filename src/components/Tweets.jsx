@@ -9,7 +9,7 @@ import Photo11 from "../images/Tweet-Profile-Photo.svg";
 import Photo13 from "../images/hh.jpg";
 import Photo14 from "../images/Profile-Photo3.png";
 import tweets from "../model/Tweet.js";
-import TweetsUser from "../components/TweetsUser.jsx";
+// import TweetsUser from "../components/TweetsUser.jsx";
 import users from "../model/user.js";
 
 import TweetEditor from "./TweetEditor.jsx";
