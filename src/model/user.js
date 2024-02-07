@@ -4,9 +4,8 @@ import Photo12 from "../images/tweet-image.png";
 import Photo11 from "../images/Tweet-Profile-Photo.svg";
 import Photo13 from "../images/hh.jpg";
 import Photo14 from "../images/Profile-Photo3.png";
-import coverPhotoCNN from "../images/photoDECouvertureCNN.jpg";
+import coverPhotoCNN from "../images/photoCNN.jpg";
 import coverPhotoTimes from "../images/newYorkTimes.jpg";
-import PhotoPerso from "../images/hh.jpg";
 import Photo15 from "../images/imgH.jpg";
 
 
@@ -68,7 +67,7 @@ import Photo15 from "../images/imgH.jpg";
     {id:3,
       autor: "TSHIBANGU Honoré",
       autorDetail: "@honore",
-      imageSrc: PhotoPerso,
+      imageSrc: Photo13,
       Image: Photo11,
       authorAvatarSrc: Photo10,
       description: "`La révolution est arrivée ! Le monde va changer pour toujours. # ",

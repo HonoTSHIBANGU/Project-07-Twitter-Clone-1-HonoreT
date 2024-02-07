@@ -2,7 +2,7 @@ import PhotoPerso from "../images/hh.jpg";
 import  Photo10 from "../images/Group.png";
 import Photo11 from "../images/imgH.jpg"
 
-let usePerso = {id:4,
+const usePerso = {id:4,
     autor: "TSHIBANGU Honoré",
     autorDetail: "@honore",
     imageSrc: PhotoPerso,
