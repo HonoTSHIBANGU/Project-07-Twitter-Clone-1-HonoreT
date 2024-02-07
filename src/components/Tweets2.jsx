@@ -64,13 +64,13 @@ const Tweets2 = () => {
           <button
             onMouseEnter={() => setHover2(true)}
             onMouseLeave={() => setHover2(false)}
-            style={{ color: hover2 ? "yellow" : "white" }}
+            style={{ color: hover2 ? "blue" : "white" }}
             className="tweet-action2"
             onClick={incrementCount2}
           >
             <div>
               <img
-                style={{ backgroundColor: hover2 ? "yellow" : "black" }}
+                style={{ backgroundColor: hover2 ? "blue" : "black" }}
                 src={Photo6}
                 alt=""
               />

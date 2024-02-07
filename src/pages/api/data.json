@@ -1,0 +1,78 @@
+
+    
+    { " jsondata" : [  
+    {
+      "id": 0,
+      "autor": "CNN",
+      "autorDetail": "@CNN",
+      "imageSrc": "../images/profilcnn2.jpg",
+      "Image": false,
+      "authorAvatarSrc": "../images/Group.png",
+      "description": "it's our job #Gothere & tell the most difficult stories, For breaking news, follow @CNNBRK and download our app cnn.com/apps",
+      "languageTradiction": "Traduire la biographie",
+      "dateOfInscription": "A rejoint Twitter en février 2007",
+      "numberOfSubscriptions": "1086 abonnements",
+      "NumberOfSubscribers": "62 M abonnés",
+      "followedBy": "suivi par .............",
+      "coverPhoto": "../images/photoDECouvertureCNN.jpg",
+      "button": "follow",
+      "button1": "suivre",
+      "button2": "..."
+    },
+    {
+      "id": 1,
+      "autor": "The New York Times",
+      "autorDetail": "@anytimes",
+      "imageSrc": "../images/Tweet-Profile-Photo.svg",
+      "Image": "../images/tweet-image.png",
+      "authorAvatarSrc": "../images/Group.png",
+      "description": "it's our job #Gothere & tell the most difficult stories, For breaking news, follow @CNNBRK and download our app cnn.com/apps",
+      "languageTradiction": "Traduire la biographie",
+      "dateOfInscription": "A rejoint Twitter en février 2007",
+      "numberOfSubscriptions": "1086 abonnements",
+      "NumberOfSubscribers": "62 M abonnés",
+      "followedBy": "suivi par .............",
+      "coverPhoto": "../images/newYorkTimes.jpg",
+      "button": "follow",
+      "button1": "suivre",
+      "button2": "..."
+    },
+    {
+      "id": 2,
+      "autor": "Twitter",
+      "autorDetail": "@Twitter",
+      "imageSrc": "../images/Profile-Photo3.png",
+      "Image": "../images/hh.jpg",
+      "authorAvatarSrc": "../images/Group.png",
+      "description": "it's our job #Gothere & tell the most difficult stories, For breaking news, follow @CNNBRK and download our app cnn.com/apps",
+      "languageTradiction": "Traduire la biographie",
+      "dateOfInscription": "A rejoint Twitter en février 2007",
+      "numberOfSubscriptions": "1086 abonnements",
+      "NumberOfSubscribers": "62 M abonnés",
+      "followedBy": "suivi par .............",
+      "coverPhoto": "../images/newYorkTimes.jpg",
+      "button": "follow",
+      "button1": "suivre",
+      "button2": "..."
+    },
+    {
+      "id": 3,
+      "autor": "TSHIBANGU Honoré",
+      "autorDetail": "@honore",
+      "imageSrc": "../images/hh.jpg",
+      "Image": "../images/Tweet-Profile-Photo.svg",
+      "authorAvatarSrc": "../images/Group.png",
+      "description": "La révolution est arrivée ! Le monde va changer pour toujours. # ",
+      "languageTradiction": "Traduire la biographie",
+      "dateOfInscription": "A rejoint Twitter en février 2007",
+      "numberOfSubscriptions": "1086 abonnements",
+      "NumberOfSubscribers": "62 M abonnés",
+      "followedBy": "suivi par .............",
+      "coverPhoto": "../images/imgH.jpg",
+      "button1": "suivre",
+      "button2": "..."
+    }
+    ] }
+  
+ 
+  

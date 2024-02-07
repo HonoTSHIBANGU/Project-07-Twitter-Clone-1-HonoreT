@@ -9,7 +9,7 @@ import Bookmarks from "../images/Bookmarks.png";
 import Listes from "../images/Lists.png";
 import More from "../images/More.png";
 import Profil from "../images/Profile.png";
-import Username from "../pages/UserName";
+// import Username from "../pages/UserName";
 
 const navItems = [
   { logo: LogoTwitter, title: "", link: false },

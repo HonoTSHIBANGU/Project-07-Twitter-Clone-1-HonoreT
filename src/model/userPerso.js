@@ -1,4 +1,4 @@
-import PhotoPerso from "../images/hh.jpg"
+import PhotoPerso from "../images/hh.jpg";
 import  Photo10 from "../images/Group.png";
 import Photo11 from "../images/imgH.jpg"
 

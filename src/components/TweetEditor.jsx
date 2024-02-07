@@ -8,6 +8,8 @@ import { Link } from "react-router-dom";
 import React, { useContext, useState } from "react";
 import { TweetContext } from "../contexte/TweetProvider.jsx";
 import photo from "../images/hh.jpg";
+import { useForm } from "react-hook-form";
+import axios from "axios";
 
 function TweetEditor() {
   const [tweetAdd, setTweetAdd] = useContext(TweetContext);
@@ -17,8 +19,8 @@ function TweetEditor() {
   const addTweet = (inputT) => {
     if (inputT !== "") {
       const tweetPending = {
-        id: 0,
-        userId: 0,
+        id: 3,
+        userId: 3,
         tweetText: inputT,
       };
 

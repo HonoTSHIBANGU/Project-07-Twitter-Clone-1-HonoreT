@@ -1,8 +1,10 @@
 import React from "react";
-import { useParams, Link } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import users from "../model/user.js";
 // import tweet from "../model/Tweet.js";
 import backIcone from "../images/backicone2.jpeg";
+import { Link } from "react-router-dom";
+import tweet from "../model/Tweet.js";
 
 function UserNameAll() {
   const { username } = useParams("username");
@@ -10,6 +12,16 @@ function UserNameAll() {
   const oneData = users.find((use) => {
     return use.autor == username;
   });
+
+  const Tweets = tweet
+    .filter((t) => t.userId === oneData.id)
+    .map((ele) => {
+      return (
+        <div>
+          <p>{ele.tweetText} </p>
+        </div>
+      );
+    });
 
   return (
     <div className="border-b border-[1px] border-solid border-[#2F3336] ml-20 mr-8 flex-1 flex-shrink-0 basis-800">
@@ -79,9 +91,7 @@ function UserNameAll() {
         {oneData.followedBy}
       </div>
       <div>
-        <p className="flex gap-2 relative top-14 left-3 ">
-          {oneData.tweetText}
-        </p>
+        <p className="flex gap-2 relative top-14 left-3 ">{Tweets}</p>
       </div>
     </div>
   );

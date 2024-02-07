@@ -15,6 +15,11 @@
         userId: 2,
         tweetText: "BIG NEWS lol jk still Twitter.",
     },
+    {   id: 3,
+      userId: 3,
+      tweetText: "hono.",
+  },
+
   ];
 
   export default tweets

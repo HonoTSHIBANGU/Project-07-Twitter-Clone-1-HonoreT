@@ -6,6 +6,9 @@ import Photo13 from "../images/hh.jpg";
 import Photo14 from "../images/Profile-Photo3.png";
 import coverPhotoCNN from "../images/photoDECouvertureCNN.jpg";
 import coverPhotoTimes from "../images/newYorkTimes.jpg";
+import PhotoPerso from "../images/hh.jpg";
+import Photo15 from "../images/imgH.jpg";
+
 
 
  const users = [
@@ -24,10 +27,8 @@ import coverPhotoTimes from "../images/newYorkTimes.jpg";
       NumberOfSubscribers: "62 M abonnés",
       followedBy: "suivi par .............",
       coverPhoto: coverPhotoCNN,
-      // tweetText:
-      //   'President Joe Biden touted a new agreement reached with the European Union to ease Trump-era tariffs on aluminum and steel as a "major breakthrough" that would serve to both strengthen the US steel industry and combat the global climate crisis.',
-        button: "follow",
-        button1: "suivre",
+      button: "follow",
+      button1: "suivre",
       button2: "...",
     },
     {id:1,
@@ -43,11 +44,9 @@ import coverPhotoTimes from "../images/newYorkTimes.jpg";
       NumberOfSubscribers: "62 M abonnés",
       followedBy: "suivi par .............",
       coverPhoto: coverPhotoTimes,
-      // tweetText:
-      //   "Gardening boomed during the pandemic. Six Black writers share how it has helped them re-establish, and reimagine, a connection to cultivation and the land.",
-        button: "follow",
-        button1: "suivre",
-        button2: "...",
+      button: "follow",
+      button1: "suivre",
+      button2: "...",
     },
     {id:2,
       autor: "Twitter",
@@ -62,10 +61,26 @@ import coverPhotoTimes from "../images/newYorkTimes.jpg";
       NumberOfSubscribers: "62 M abonnés",
       followedBy: "suivi par .............",
       coverPhoto: coverPhotoTimes,
-      // tweetText: "BIG NEWS lol jk still Twitter.",
       button: "follow",
       button1: "suivre",
       button2: "...",
     },
+    {id:3,
+      autor: "TSHIBANGU Honoré",
+      autorDetail: "@honore",
+      imageSrc: PhotoPerso,
+      Image: Photo11,
+      authorAvatarSrc: Photo10,
+      description: "`La révolution est arrivée ! Le monde va changer pour toujours. # ",
+      languageTradiction: "Traduire la biographie",
+      dateOfInscription: " A rejoint Twitter en février 2007",
+      numberOfSubscriptions: "1086 abonnements",
+      NumberOfSubscribers: "62 M abonnés",
+      followedBy: "suivi par .............",
+      coverPhoto: Photo15,
+      button1: "suivre",
+      button2: "...",
+  
+    }
   ];
   export default users

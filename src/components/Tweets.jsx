@@ -2,23 +2,12 @@ import React, { useContext } from "react";
 import { TweetContext } from "../contexte/TweetProvider.jsx";
 import { Link } from "react-router-dom";
 import Tweets2 from "../components/Tweets2.jsx";
-import Photo9 from "../images/tweet-profile-photo.png";
-import Photo10 from "../images/Group.png";
-import Photo12 from "../images/tweet-image.png";
-import Photo11 from "../images/Tweet-Profile-Photo.svg";
-import Photo13 from "../images/hh.jpg";
-import Photo14 from "../images/Profile-Photo3.png";
-import tweets from "../model/Tweet.js";
-// import TweetsUser from "../components/TweetsUser.jsx";
 import users from "../model/user.js";
-
-import TweetEditor from "./TweetEditor.jsx";
-import Home from "../pages/Home.jsx";
 
 function Tweets() {
   const [tweetAdd, setTweetAdd] = useContext(TweetContext);
   //console.log(tweetAdd);
-  const ht = tweetAdd.map((item) => {
+  const Tweet = tweetAdd.map((item) => {
     const user = users.find((user) => user.id === item.userId);
 
     return (
@@ -54,6 +43,6 @@ function Tweets() {
     );
   });
 
-  return <div>{ht}</div>;
+  return <div>{Tweet}</div>;
 }
 export default Tweets;
