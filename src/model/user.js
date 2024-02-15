@@ -4,7 +4,7 @@ import Photo12 from "../images/tweet-image.png";
 import Photo11 from "../images/Tweet-Profile-Photo.svg";
 import Photo13 from "../images/hh.jpg";
 import Photo14 from "../images/Profile-Photo3.png";
-import coverPhotoCNN from "../images/photoCNN.jpg";
+import coverPhotoCNN from "../images/photoDeCouvertureCNN.jpg";
 import coverPhotoTimes from "../images/newYorkTimes.jpg";
 import Photo15 from "../images/imgH.jpg";
 

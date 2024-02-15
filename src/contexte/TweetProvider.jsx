@@ -1,16 +1,10 @@
 import React, { createContext, useState } from "react";
-import TweetList from "../model/Tweet";
+import TweetList from "../pages/data/initial-data.json";
 
-export const TweetContext = createContext([
-  {
-    id: "",
-    userId: "",
-    tweetText: "",
-  },
-]);
+export const TweetContext = createContext();
 
 function TweetProvider({ children }) {
-  const [tweetAdd, setTweetAdd] = useState(TweetList);
+  const [tweetAdd, setTweetAdd] = useState(TweetList.tweets);
   //console.log(tweetAdd);
 
   return (

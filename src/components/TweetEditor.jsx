@@ -12,6 +12,12 @@ import { useForm } from "react-hook-form";
 import axios from "axios";
 
 function TweetEditor() {
+  // const {
+  //   register,
+  //   handleSubmit,
+  //   formState: { errors },
+  // } = useForm();
+
   const [tweetAdd, setTweetAdd] = useContext(TweetContext);
   // console.log(tweetAdd);
   const [inputTweet, setInputTweet] = useState("");
